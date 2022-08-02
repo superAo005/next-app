@@ -1,4 +1,3 @@
-建工程时的依赖是怎么自动生成的没看清老师
 npm install next react react-dom
 node离java还有一大段距离
 这个appjs和cra的appjs差不多吧，都是入口组件
