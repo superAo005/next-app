@@ -1,4 +1,11 @@
-## 安装依赖
+## Installation
 
-npm install
-npm run dev
+$  npm install
+
+## Running the app
+
+ # development
+$ npm run start
+
+# watch mode
+$ npm run start:dev
