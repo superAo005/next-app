@@ -2,113 +2,29 @@
 # yarn lockfile v1
 
 
-"@babel/code-frame@7.12.11":
-  "integrity" "sha1-9K1DWqJj25NbjxDyxVLSP7cWpj8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@babel/code-frame/download/@babel/code-frame-7.12.11.tgz"
-  "version" "7.12.11"
-  dependencies:
-    "@babel/highlight" "^7.10.4"
-
-"@babel/helper-validator-identifier@^7.18.6":
-  "integrity" "sha1-nJfjDTGyuMcqHQiYTyyptXTXoHY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@babel/helper-validator-identifier/download/@babel/helper-validator-identifier-7.18.6.tgz"
-  "version" "7.18.6"
-
-"@babel/highlight@^7.10.4":
-  "integrity" "sha1-gRWGAek+JWN5Wty/vfXWS+Py7N8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@babel/highlight/download/@babel/highlight-7.18.6.tgz"
-  "version" "7.18.6"
-  dependencies:
-    "@babel/helper-validator-identifier" "^7.18.6"
-    "chalk" "^2.0.0"
-    "js-tokens" "^4.0.0"
-
-"@babel/runtime@^7.15.4":
+"@babel/runtime@^7.15.4", "@babel/runtime@^7.9.2":
   "integrity" "sha1-tPz85V2z0uXggNJJD2CKO59Af0o="
   "resolved" "http://registry.npm.release.ctripcorp.com/@babel/runtime/download/@babel/runtime-7.18.9.tgz"
   "version" "7.18.9"
   dependencies:
     "regenerator-runtime" "^0.13.4"
 
-"@babel/runtime@^7.9.2", "@babel/runtime@7.12.5":
-  "integrity" "sha1-QQ5+SHRB4bNgwpvnFdhw2bmFiC4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@babel/runtime/download/@babel/runtime-7.12.5.tgz"
-  "version" "7.12.5"
+"@next/env@13.0.0":
+  "integrity" "sha1-OFJ5VmgGk8kLRSKrSrmi++Ohf2c="
+  "resolved" "http://registry.npm.release.ctripcorp.com/@next/env/download/@next/env-13.0.0.tgz"
+  "version" "13.0.0"
+
+"@next/swc-win32-x64-msvc@13.0.0":
+  "integrity" "sha1-xUpac53uBLIDONMFImoqzfcB9n8="
+  "resolved" "http://registry.npm.release.ctripcorp.com/@next/swc-win32-x64-msvc/download/@next/swc-win32-x64-msvc-13.0.0.tgz"
+  "version" "13.0.0"
+
+"@swc/helpers@0.4.11":
+  "integrity" "sha1-2yOjdnYbPTHCZQISLzSaIbWSyN4="
+  "resolved" "http://registry.npm.release.ctripcorp.com/@swc/helpers/download/@swc/helpers-0.4.11.tgz"
+  "version" "0.4.11"
   dependencies:
-    "regenerator-runtime" "^0.13.4"
-
-"@babel/types@7.8.3":
-  "integrity" "sha1-Wjg9/6VBbbG3Pe3/0xH/0HiPsxw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@babel/types/download/@babel/types-7.8.3.tgz"
-  "version" "7.8.3"
-  dependencies:
-    "esutils" "^2.0.2"
-    "lodash" "^4.17.13"
-    "to-fast-properties" "^2.0.0"
-
-"@hapi/accept@5.0.2":
-  "integrity" "sha1-q3BDsDfmi3Ivk/N2r7BehcBplSM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@hapi/accept/download/@hapi/accept-5.0.2.tgz"
-  "version" "5.0.2"
-  dependencies:
-    "@hapi/boom" "9.x.x"
-    "@hapi/hoek" "9.x.x"
-
-"@hapi/boom@9.x.x":
-  "integrity" "sha1-H52tNnxqfan43vJLSphvxae9nbY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@hapi/boom/download/@hapi/boom-9.1.4.tgz"
-  "version" "9.1.4"
-  dependencies:
-    "@hapi/hoek" "9.x.x"
-
-"@hapi/hoek@9.x.x":
-  "integrity" "sha1-g2iGnctzW+Ln9ct2R9544WeiUfs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@hapi/hoek/download/@hapi/hoek-9.3.0.tgz"
-  "version" "9.3.0"
-
-"@next/env@10.2.3":
-  "integrity" "sha1-7eO75ozsmTnDcWjqIHf5rbxoM04="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@next/env/download/@next/env-10.2.3.tgz"
-  "version" "10.2.3"
-
-"@next/polyfill-module@10.2.3":
-  "integrity" "sha1-Win1DDzjpWuCaNO4MxxpHYA5Rno="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@next/polyfill-module/download/@next/polyfill-module-10.2.3.tgz"
-  "version" "10.2.3"
-
-"@next/react-dev-overlay@10.2.3":
-  "integrity" "sha1-lTE9EKiEj2x7njGuO9KjYn0TaEE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@next/react-dev-overlay/download/@next/react-dev-overlay-10.2.3.tgz"
-  "version" "10.2.3"
-  dependencies:
-    "@babel/code-frame" "7.12.11"
-    "anser" "1.4.9"
-    "chalk" "4.0.0"
-    "classnames" "2.2.6"
-    "css.escape" "1.5.1"
-    "data-uri-to-buffer" "3.0.1"
-    "platform" "1.3.6"
-    "shell-quote" "1.7.2"
-    "source-map" "0.8.0-beta.0"
-    "stacktrace-parser" "0.1.10"
-    "strip-ansi" "6.0.0"
-
-"@next/react-refresh-utils@10.2.3":
-  "integrity" "sha1-Lz5C/maAeY8nbjYhNFwohrIxNIs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@next/react-refresh-utils/download/@next/react-refresh-utils-10.2.3.tgz"
-  "version" "10.2.3"
-
-"@opentelemetry/api@0.14.0":
-  "integrity" "sha1-ThfY0vHacrGTdO+ntlJqoAEmfK4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@opentelemetry/api/download/@opentelemetry/api-0.14.0.tgz"
-  "version" "0.14.0"
-  dependencies:
-    "@opentelemetry/context-base" "^0.14.0"
-
-"@opentelemetry/context-base@^0.14.0":
-  "integrity" "sha1-xn/CCk2JFEfKGoVdfXD6eaNTMAE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/@opentelemetry/context-base/download/@opentelemetry/context-base-0.14.0.tgz"
-  "version" "0.14.0"
+    "tslib" "^2.4.0"
 
 "@types/bson@*", "@types/bson@1.x || 4.0.x":
   "integrity" "sha1-ng4dGm+IZkg/loaKmzO8gEkmsfw="
@@ -180,31 +96,7 @@
     "mime-types" "~2.1.34"
     "negotiator" "0.6.3"
 
-"anser@1.4.9":
-  "integrity" "sha1-H4VCOl3PjaRjGjQWZf9nW5aEV2A="
-  "resolved" "http://registry.npm.release.ctripcorp.com/anser/download/anser-1.4.9.tgz"
-  "version" "1.4.9"
-
-"ansi-regex@^5.0.0":
-  "integrity" "sha1-CCyyyJyf6GWaMRpTvWpNxTAdswQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ansi-regex/download/ansi-regex-5.0.1.tgz"
-  "version" "5.0.1"
-
-"ansi-styles@^3.2.1":
-  "integrity" "sha1-QfuyAkPlCxK+DwS43tvwdSDOhB0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ansi-styles/download/ansi-styles-3.2.1.tgz"
-  "version" "3.2.1"
-  dependencies:
-    "color-convert" "^1.9.0"
-
-"ansi-styles@^4.1.0":
-  "integrity" "sha1-7dgDYornHATIWuegkG7a00tkiTc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ansi-styles/download/ansi-styles-4.3.0.tgz"
-  "version" "4.3.0"
-  dependencies:
-    "color-convert" "^2.0.1"
-
-"anymatch@~3.1.1", "anymatch@~3.1.2":
+"anymatch@~3.1.2":
   "integrity" "sha1-wFV8CWrzLxBhmPT04qODU343hxY="
   "resolved" "http://registry.npm.release.ctripcorp.com/anymatch/download/anymatch-3.1.2.tgz"
   "version" "3.1.2"
@@ -217,44 +109,6 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/array-flatten/download/array-flatten-1.1.1.tgz"
   "version" "1.1.1"
 
-"asn1.js@^5.2.0":
-  "integrity" "sha1-EamAuE67kXgc41sP3C7ilON4Pwc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/asn1.js/download/asn1.js-5.4.1.tgz"
-  "version" "5.4.1"
-  dependencies:
-    "bn.js" "^4.0.0"
-    "inherits" "^2.0.1"
-    "minimalistic-assert" "^1.0.0"
-    "safer-buffer" "^2.1.0"
-
-"assert@^1.1.1":
-  "integrity" "sha1-VcEJqvbgrv2z3EtxJAxwv1dLGOs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/assert/download/assert-1.5.0.tgz"
-  "version" "1.5.0"
-  dependencies:
-    "object-assign" "^4.1.1"
-    "util" "0.10.3"
-
-"assert@2.0.0":
-  "integrity" "sha1-lfwcYW1IcTUQaA8ury0Q3SLgLTI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/assert/download/assert-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "es6-object-assign" "^1.1.0"
-    "is-nan" "^1.2.1"
-    "object-is" "^1.0.1"
-    "util" "^0.12.0"
-
-"ast-types@0.13.2":
-  "integrity" "sha1-3zm2d6kRqD86BJZE+3T93tI86kg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ast-types/download/ast-types-0.13.2.tgz"
-  "version" "0.13.2"
-
-"available-typed-arrays@^1.0.5":
-  "integrity" "sha1-kvlWFlAQadB9EO2y/DfT4cZRI7c="
-  "resolved" "http://registry.npm.release.ctripcorp.com/available-typed-arrays/download/available-typed-arrays-1.0.5.tgz"
-  "version" "1.0.5"
-
 "axios@^0.21.1":
   "integrity" "sha1-xnuQ3AVo5cHPKwuFjEO6KOLtpXU="
   "resolved" "http://registry.npm.release.ctripcorp.com/axios/download/axios-0.21.4.tgz"
@@ -262,25 +116,10 @@
   dependencies:
     "follow-redirects" "^1.14.0"
 
-"babel-plugin-syntax-jsx@6.18.0":
-  "integrity" "sha1-CvMqmm4Tyno/1QaeYtew9Y0NiUY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/babel-plugin-syntax-jsx/download/babel-plugin-syntax-jsx-6.18.0.tgz"
-  "version" "6.18.0"
-
 "balanced-match@^1.0.0":
   "integrity" "sha1-6D46fj8wCzTLnYf2FfoMvzV2kO4="
   "resolved" "http://registry.npm.release.ctripcorp.com/balanced-match/download/balanced-match-1.0.2.tgz"
   "version" "1.0.2"
-
-"base64-js@^1.0.2":
-  "integrity" "sha1-GxtEAWClv3rUC2UPCVljSBkDkwo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/base64-js/download/base64-js-1.5.1.tgz"
-  "version" "1.5.1"
-
-"big.js@^5.2.2":
-  "integrity" "sha1-ZfCvOC9Xi83HQr2cKB6cstd2gyg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/big.js/download/big.js-5.2.2.tgz"
-  "version" "5.2.2"
 
 "binary-extensions@^2.0.0":
   "integrity" "sha1-dfUC7q+f/eQvyYgpZFvk6na9ni0="
@@ -299,26 +138,6 @@
   "integrity" "sha1-2VUfnemPH82h5oPRfukaBgLuLrk="
   "resolved" "http://registry.npm.release.ctripcorp.com/bluebird/download/bluebird-3.5.1.tgz"
   "version" "3.5.1"
-
-"bn.js@^4.0.0":
-  "integrity" "sha1-d1s/J477uXGO7HNh9IP7Nvu/6og="
-  "resolved" "http://registry.npm.release.ctripcorp.com/bn.js/download/bn.js-4.12.0.tgz"
-  "version" "4.12.0"
-
-"bn.js@^4.1.0":
-  "integrity" "sha1-d1s/J477uXGO7HNh9IP7Nvu/6og="
-  "resolved" "http://registry.npm.release.ctripcorp.com/bn.js/download/bn.js-4.12.0.tgz"
-  "version" "4.12.0"
-
-"bn.js@^4.11.9":
-  "integrity" "sha1-d1s/J477uXGO7HNh9IP7Nvu/6og="
-  "resolved" "http://registry.npm.release.ctripcorp.com/bn.js/download/bn.js-4.12.0.tgz"
-  "version" "4.12.0"
-
-"bn.js@^5.0.0", "bn.js@^5.1.1":
-  "integrity" "sha1-C8UnpqDRjQqo1bBTjOSnfcz6e3A="
-  "resolved" "http://registry.npm.release.ctripcorp.com/bn.js/download/bn.js-5.2.1.tgz"
-  "version" "5.2.1"
 
 "body-parser@^1.19.0", "body-parser@1.20.0":
   "integrity" "sha1-Peab2JARwRVz17/uamTxG2vSfMU="
@@ -353,119 +172,10 @@
   dependencies:
     "fill-range" "^7.0.1"
 
-"brorand@^1.0.1", "brorand@^1.1.0":
-  "integrity" "sha1-EsJe/kCkXjwyPrhnWgoM5XsiNx8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/brorand/download/brorand-1.1.0.tgz"
-  "version" "1.1.0"
-
-"browserify-aes@^1.0.0", "browserify-aes@^1.0.4":
-  "integrity" "sha1-Mmc0ZC9APavDADIJhTu3CtQo70g="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-aes/download/browserify-aes-1.2.0.tgz"
-  "version" "1.2.0"
-  dependencies:
-    "buffer-xor" "^1.0.3"
-    "cipher-base" "^1.0.0"
-    "create-hash" "^1.1.0"
-    "evp_bytestokey" "^1.0.3"
-    "inherits" "^2.0.1"
-    "safe-buffer" "^5.0.1"
-
-"browserify-cipher@^1.0.0":
-  "integrity" "sha1-jWR0wbhwv9q807z8wZNKEOlPFfA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-cipher/download/browserify-cipher-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "browserify-aes" "^1.0.4"
-    "browserify-des" "^1.0.0"
-    "evp_bytestokey" "^1.0.0"
-
-"browserify-des@^1.0.0":
-  "integrity" "sha1-OvTx9Zg5QDVy8cZiBDdfen9wPpw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-des/download/browserify-des-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "cipher-base" "^1.0.1"
-    "des.js" "^1.0.0"
-    "inherits" "^2.0.1"
-    "safe-buffer" "^5.1.2"
-
-"browserify-rsa@^4.0.0", "browserify-rsa@^4.0.1":
-  "integrity" "sha1-sv0Gtbda4pf3zi3GUfkY9b4VjI0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-rsa/download/browserify-rsa-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "bn.js" "^5.0.0"
-    "randombytes" "^2.0.1"
-
-"browserify-sign@^4.0.0":
-  "integrity" "sha1-6vSt1G3VS+O7OzbAzxWrvrp5VsM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-sign/download/browserify-sign-4.2.1.tgz"
-  "version" "4.2.1"
-  dependencies:
-    "bn.js" "^5.1.1"
-    "browserify-rsa" "^4.0.1"
-    "create-hash" "^1.2.0"
-    "create-hmac" "^1.1.7"
-    "elliptic" "^6.5.3"
-    "inherits" "^2.0.4"
-    "parse-asn1" "^5.1.5"
-    "readable-stream" "^3.6.0"
-    "safe-buffer" "^5.2.0"
-
-"browserify-zlib@^0.2.0", "browserify-zlib@0.2.0":
-  "integrity" "sha1-KGlFnZqjviRf6P4sofRuLn9U1z8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserify-zlib/download/browserify-zlib-0.2.0.tgz"
-  "version" "0.2.0"
-  dependencies:
-    "pako" "~1.0.5"
-
-"browserslist@4.16.6":
-  "integrity" "sha1-15ASd6WojlVO0wWxg+ybDAj2b6I="
-  "resolved" "http://registry.npm.release.ctripcorp.com/browserslist/download/browserslist-4.16.6.tgz"
-  "version" "4.16.6"
-  dependencies:
-    "caniuse-lite" "^1.0.30001219"
-    "colorette" "^1.2.2"
-    "electron-to-chromium" "^1.3.723"
-    "escalade" "^3.1.1"
-    "node-releases" "^1.1.71"
-
 "bson@^1.1.4":
   "integrity" "sha1-+4Gb6aYM1nfghTruTKcSp4XWYYo="
   "resolved" "http://registry.npm.release.ctripcorp.com/bson/download/bson-1.1.6.tgz"
   "version" "1.1.6"
-
-"buffer-xor@^1.0.3":
-  "integrity" "sha1-JuYe0UIvtw3ULm42cp7VHYVf6Nk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/buffer-xor/download/buffer-xor-1.0.3.tgz"
-  "version" "1.0.3"
-
-"buffer@^4.3.0":
-  "integrity" "sha1-Iw6tNEACmIZEhBqwJEr4xEu+Pvg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/buffer/download/buffer-4.9.2.tgz"
-  "version" "4.9.2"
-  dependencies:
-    "base64-js" "^1.0.2"
-    "ieee754" "^1.1.4"
-    "isarray" "^1.0.0"
-
-"buffer@5.6.0":
-  "integrity" "sha1-oxdJ3H2B2E2wir+Te2uMQDP2J4Y="
-  "resolved" "http://registry.npm.release.ctripcorp.com/buffer/download/buffer-5.6.0.tgz"
-  "version" "5.6.0"
-  dependencies:
-    "base64-js" "^1.0.2"
-    "ieee754" "^1.1.4"
-
-"builtin-status-codes@^3.0.0":
-  "integrity" "sha1-hZgoeOIbmOHGZCXgPQF0eI9Wnug="
-  "resolved" "http://registry.npm.release.ctripcorp.com/builtin-status-codes/download/builtin-status-codes-3.0.0.tgz"
-  "version" "3.0.0"
-
-"bytes@3.1.0":
-  "integrity" "sha1-9s95M6Ng4FiPqf3oVlHNx/gF0fY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/bytes/download/bytes-3.1.0.tgz"
-  "version" "3.1.0"
 
 "bytes@3.1.2":
   "integrity" "sha1-iwvuuYYFrfGxKPpDhkA8AJ4CIaU="
@@ -480,7 +190,7 @@
     "mime-types" "^2.1.18"
     "ylru" "^1.2.0"
 
-"call-bind@^1.0.0", "call-bind@^1.0.2":
+"call-bind@^1.0.0":
   "integrity" "sha1-sdTonmiBGcPJqQOtMKuy9qkZvjw="
   "resolved" "http://registry.npm.release.ctripcorp.com/call-bind/download/call-bind-1.0.2.tgz"
   "version" "1.0.2"
@@ -488,27 +198,10 @@
     "function-bind" "^1.1.1"
     "get-intrinsic" "^1.0.2"
 
-"caniuse-lite@^1.0.30001202", "caniuse-lite@^1.0.30001219", "caniuse-lite@^1.0.30001228":
-  "integrity" "sha1-xcBjgcYFHNhjxFAhR1Q06Bk29xM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/caniuse-lite/download/caniuse-lite-1.0.30001368.tgz"
-  "version" "1.0.30001368"
-
-"chalk@^2.0.0", "chalk@2.4.2":
-  "integrity" "sha1-zUJUFnelQzPPVBpJEIwUMrRMlCQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/chalk/download/chalk-2.4.2.tgz"
-  "version" "2.4.2"
-  dependencies:
-    "ansi-styles" "^3.2.1"
-    "escape-string-regexp" "^1.0.5"
-    "supports-color" "^5.3.0"
-
-"chalk@4.0.0":
-  "integrity" "sha1-bpgIHtLRf6q2FetSrGbsH+YgnnI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/chalk/download/chalk-4.0.0.tgz"
-  "version" "4.0.0"
-  dependencies:
-    "ansi-styles" "^4.1.0"
-    "supports-color" "^7.1.0"
+"caniuse-lite@^1.0.30001406":
+  "integrity" "sha1-WNogRGzNDLHf69EdI1DJB+58Lqo="
+  "resolved" "http://registry.npm.release.ctripcorp.com/caniuse-lite/download/caniuse-lite-1.0.30001426.tgz"
+  "version" "1.0.30001426"
 
 "chokidar@^3.5.2":
   "integrity" "sha1-HPN8hwe5Mr0a8a4iwEMuKs0ZA70="
@@ -525,72 +218,15 @@
   optionalDependencies:
     "fsevents" "~2.3.2"
 
-"chokidar@3.5.1":
-  "integrity" "sha1-7pznu+vSt59J8wR5nVRo4x4U5oo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/chokidar/download/chokidar-3.5.1.tgz"
-  "version" "3.5.1"
-  dependencies:
-    "anymatch" "~3.1.1"
-    "braces" "~3.0.2"
-    "glob-parent" "~5.1.0"
-    "is-binary-path" "~2.1.0"
-    "is-glob" "~4.0.1"
-    "normalize-path" "~3.0.0"
-    "readdirp" "~3.5.0"
-  optionalDependencies:
-    "fsevents" "~2.3.1"
-
-"cipher-base@^1.0.0", "cipher-base@^1.0.1", "cipher-base@^1.0.3":
-  "integrity" "sha1-h2Dk7MJy9MNjUy+SbYdKriwTl94="
-  "resolved" "http://registry.npm.release.ctripcorp.com/cipher-base/download/cipher-base-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "inherits" "^2.0.1"
-    "safe-buffer" "^5.0.1"
-
-"classnames@2.2.6":
-  "integrity" "sha1-Q5Nb/90pHzJtrQogUwmzjQD2UM4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/classnames/download/classnames-2.2.6.tgz"
-  "version" "2.2.6"
+"client-only@0.0.1":
+  "integrity" "sha1-OLul1APEGrFQv/ZKlchQE89zvKE="
+  "resolved" "http://registry.npm.release.ctripcorp.com/client-only/download/client-only-0.0.1.tgz"
+  "version" "0.0.1"
 
 "co@^4.6.0":
   "integrity" "sha1-bqa989hTrlTMuOR7+gvz+QMfsYQ="
   "resolved" "http://registry.npm.release.ctripcorp.com/co/download/co-4.6.0.tgz"
   "version" "4.6.0"
-
-"color-convert@^1.9.0":
-  "integrity" "sha1-u3GFBpDh8TZWfeYp0tVHHe2kweg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/color-convert/download/color-convert-1.9.3.tgz"
-  "version" "1.9.3"
-  dependencies:
-    "color-name" "1.1.3"
-
-"color-convert@^2.0.1":
-  "integrity" "sha1-ctOmjVmMm9s68q0ehPIdiWq9TeM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/color-convert/download/color-convert-2.0.1.tgz"
-  "version" "2.0.1"
-  dependencies:
-    "color-name" "~1.1.4"
-
-"color-name@~1.1.4":
-  "integrity" "sha1-wqCah6y95pVD3m9j+jmVyCbFNqI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/color-name/download/color-name-1.1.4.tgz"
-  "version" "1.1.4"
-
-"color-name@1.1.3":
-  "integrity" "sha1-p9BVi9icQveV3UIyj3QIMcpTvCU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/color-name/download/color-name-1.1.3.tgz"
-  "version" "1.1.3"
-
-"colorette@^1.2.2":
-  "integrity" "sha1-UZD7uHJ2JZqGrXAL/yxtb6o/ykA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/colorette/download/colorette-1.4.0.tgz"
-  "version" "1.4.0"
-
-"commondir@^1.0.1":
-  "integrity" "sha1-3dgA2gxmEnOTzKWVDqloo6rxJTs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/commondir/download/commondir-1.0.1.tgz"
-  "version" "1.0.1"
 
 "concat-map@0.0.1":
   "integrity" "sha1-2Klr13/Wjfd5OnMDajug1UBdR3s="
@@ -604,16 +240,6 @@
   dependencies:
     "mongodb" "^3.1.0"
 
-"console-browserify@^1.1.0":
-  "integrity" "sha1-ZwY871fOts9Jk6KrOlWECujEkzY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/console-browserify/download/console-browserify-1.2.0.tgz"
-  "version" "1.2.0"
-
-"constants-browserify@^1.0.0", "constants-browserify@1.0.0":
-  "integrity" "sha1-wguW2MYXdIqvHBYCF2DNJ/y4y3U="
-  "resolved" "http://registry.npm.release.ctripcorp.com/constants-browserify/download/constants-browserify-1.0.0.tgz"
-  "version" "1.0.0"
-
 "content-disposition@~0.5.2", "content-disposition@0.5.4":
   "integrity" "sha1-i4K076yCUSoCuwsdzsnSxejrW/4="
   "resolved" "http://registry.npm.release.ctripcorp.com/content-disposition/download/content-disposition-0.5.4.tgz"
@@ -625,13 +251,6 @@
   "integrity" "sha1-4TjMdeBAxyexlm/l5fjJruJW/js="
   "resolved" "http://registry.npm.release.ctripcorp.com/content-type/download/content-type-1.0.4.tgz"
   "version" "1.0.4"
-
-"convert-source-map@1.7.0":
-  "integrity" "sha1-F6LLiC1/d9NJBYXizmxSRCSjpEI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/convert-source-map/download/convert-source-map-1.7.0.tgz"
-  "version" "1.7.0"
-  dependencies:
-    "safe-buffer" "~5.1.1"
 
 "cookie-signature@1.0.6":
   "integrity" "sha1-4wOogrNCzD7oylE6eZmXNNqzriw="
@@ -669,82 +288,10 @@
     "object-assign" "^4"
     "vary" "^1"
 
-"create-ecdh@^4.0.0":
-  "integrity" "sha1-1uf0v/pmc2CFoHYv06YyaE2rzE4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/create-ecdh/download/create-ecdh-4.0.4.tgz"
-  "version" "4.0.4"
-  dependencies:
-    "bn.js" "^4.1.0"
-    "elliptic" "^6.5.3"
-
-"create-hash@^1.1.0", "create-hash@^1.1.2", "create-hash@^1.2.0":
-  "integrity" "sha1-iJB4rxGmN1a8+1m9IhmWvjqe8ZY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/create-hash/download/create-hash-1.2.0.tgz"
-  "version" "1.2.0"
-  dependencies:
-    "cipher-base" "^1.0.1"
-    "inherits" "^2.0.1"
-    "md5.js" "^1.3.4"
-    "ripemd160" "^2.0.1"
-    "sha.js" "^2.4.0"
-
-"create-hmac@^1.1.0", "create-hmac@^1.1.4", "create-hmac@^1.1.7":
-  "integrity" "sha1-aRcMeLOrlXFHsriwRXLkfq0iQ/8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/create-hmac/download/create-hmac-1.1.7.tgz"
-  "version" "1.1.7"
-  dependencies:
-    "cipher-base" "^1.0.3"
-    "create-hash" "^1.1.0"
-    "inherits" "^2.0.1"
-    "ripemd160" "^2.0.0"
-    "safe-buffer" "^5.0.1"
-    "sha.js" "^2.4.8"
-
-"crypto-browserify@^3.11.0", "crypto-browserify@3.12.0":
-  "integrity" "sha1-OWz58xN/A+S45TLFj2mCVOAPgOw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/crypto-browserify/download/crypto-browserify-3.12.0.tgz"
-  "version" "3.12.0"
-  dependencies:
-    "browserify-cipher" "^1.0.0"
-    "browserify-sign" "^4.0.0"
-    "create-ecdh" "^4.0.0"
-    "create-hash" "^1.1.0"
-    "create-hmac" "^1.1.0"
-    "diffie-hellman" "^5.0.0"
-    "inherits" "^2.0.1"
-    "pbkdf2" "^3.0.3"
-    "public-encrypt" "^4.0.0"
-    "randombytes" "^2.0.0"
-    "randomfill" "^1.0.3"
-
-"css.escape@1.5.1":
-  "integrity" "sha1-QuJ9T6BK4y+TGktNQZH6nN3ul8s="
-  "resolved" "http://registry.npm.release.ctripcorp.com/css.escape/download/css.escape-1.5.1.tgz"
-  "version" "1.5.1"
-
-"cssnano-preset-simple@^2.0.0":
-  "integrity" "sha1-tV5yy5cHE/QlVgoOFBsDNSSeL5Y="
-  "resolved" "http://registry.npm.release.ctripcorp.com/cssnano-preset-simple/download/cssnano-preset-simple-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "caniuse-lite" "^1.0.30001202"
-
-"cssnano-simple@2.0.0":
-  "integrity" "sha1-kw2dzYuhBcWmLOcZywCFTaWLXAU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/cssnano-simple/download/cssnano-simple-2.0.0.tgz"
-  "version" "2.0.0"
-  dependencies:
-    "cssnano-preset-simple" "^2.0.0"
-
 "csstype@^3.0.2":
   "integrity" "sha1-TdysNxjXh8+d8NG30VAzklyPKfI="
   "resolved" "http://registry.npm.release.ctripcorp.com/csstype/download/csstype-3.1.0.tgz"
   "version" "3.1.0"
-
-"data-uri-to-buffer@3.0.1":
-  "integrity" "sha1-WUuJc5OMW8LDMEZTV4U0GrxPNjY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/data-uri-to-buffer/download/data-uri-to-buffer-3.0.1.tgz"
-  "version" "3.0.1"
 
 "debug@^3.2.7":
   "integrity" "sha1-clgLfpFF+zm2Z2+cXl+xALk0F5o="
@@ -767,7 +314,7 @@
   dependencies:
     "ms" "2.1.2"
 
-"debug@2", "debug@2.6.9":
+"debug@2.6.9":
   "integrity" "sha1-XRKFFd8TT/Mn6QpMk/Tgd6U2NB8="
   "resolved" "http://registry.npm.release.ctripcorp.com/debug/download/debug-2.6.9.tgz"
   "version" "2.6.9"
@@ -785,14 +332,6 @@
   "integrity" "sha1-9dJgKStmDghO/0zbyfCK0yR0SLU="
   "resolved" "http://registry.npm.release.ctripcorp.com/deep-equal/download/deep-equal-1.0.1.tgz"
   "version" "1.0.1"
-
-"define-properties@^1.1.3", "define-properties@^1.1.4":
-  "integrity" "sha1-CxTXvX++svNXLDp+2oDqXVf7BbE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/define-properties/download/define-properties-1.1.4.tgz"
-  "version" "1.1.4"
-  dependencies:
-    "has-property-descriptors" "^1.0.0"
-    "object-keys" "^1.1.1"
 
 "delegates@^1.0.0":
   "integrity" "sha1-hMbhWbgZBP3KWaDvRM2HDTElD5o="
@@ -814,158 +353,30 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/depd/download/depd-1.1.2.tgz"
   "version" "1.1.2"
 
-"des.js@^1.0.0":
-  "integrity" "sha1-U4IULhvcU/hdhtU+X0qn3rkeCEM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/des.js/download/des.js-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "inherits" "^2.0.1"
-    "minimalistic-assert" "^1.0.0"
-
 "destroy@^1.0.4", "destroy@1.2.0":
   "integrity" "sha1-SANzVQmti+VSk0xn32FPlOZvoBU="
   "resolved" "http://registry.npm.release.ctripcorp.com/destroy/download/destroy-1.2.0.tgz"
   "version" "1.2.0"
-
-"diffie-hellman@^5.0.0":
-  "integrity" "sha1-QOjumPVaIUlgcUaSHGPhrl89KHU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/diffie-hellman/download/diffie-hellman-5.0.3.tgz"
-  "version" "5.0.3"
-  dependencies:
-    "bn.js" "^4.1.0"
-    "miller-rabin" "^4.0.0"
-    "randombytes" "^2.0.0"
-
-"domain-browser@^1.1.1":
-  "integrity" "sha1-PTH1AZGmdJ3RN1p/Ui6CPULlTto="
-  "resolved" "http://registry.npm.release.ctripcorp.com/domain-browser/download/domain-browser-1.2.0.tgz"
-  "version" "1.2.0"
-
-"domain-browser@4.19.0":
-  "integrity" "sha1-EJPhfAoX29UhGC/pDUmsE3AFSvE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/domain-browser/download/domain-browser-4.19.0.tgz"
-  "version" "4.19.0"
 
 "ee-first@1.1.1":
   "integrity" "sha1-WQxhFWsK4vTwJVcyoViyZrxWsh0="
   "resolved" "http://registry.npm.release.ctripcorp.com/ee-first/download/ee-first-1.1.1.tgz"
   "version" "1.1.1"
 
-"electron-to-chromium@^1.3.723":
-  "integrity" "sha1-4DhP3nn92omIDovlgZapFT4E2zs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/electron-to-chromium/download/electron-to-chromium-1.4.199.tgz"
-  "version" "1.4.199"
-
-"elliptic@^6.5.3":
-  "integrity" "sha1-2jfOvTHnmhNn6UG1ku0fvr1Yq7s="
-  "resolved" "http://registry.npm.release.ctripcorp.com/elliptic/download/elliptic-6.5.4.tgz"
-  "version" "6.5.4"
-  dependencies:
-    "bn.js" "^4.11.9"
-    "brorand" "^1.1.0"
-    "hash.js" "^1.0.0"
-    "hmac-drbg" "^1.0.1"
-    "inherits" "^2.0.4"
-    "minimalistic-assert" "^1.0.1"
-    "minimalistic-crypto-utils" "^1.0.1"
-
-"emojis-list@^2.0.0":
-  "integrity" "sha1-TapNnbAPmBmIDHn6RXrlsJof04k="
-  "resolved" "http://registry.npm.release.ctripcorp.com/emojis-list/download/emojis-list-2.1.0.tgz"
-  "version" "2.1.0"
-
 "encodeurl@^1.0.2", "encodeurl@~1.0.2":
   "integrity" "sha1-rT/0yG7C0CkyL1oCw6mmBslbP1k="
   "resolved" "http://registry.npm.release.ctripcorp.com/encodeurl/download/encodeurl-1.0.2.tgz"
   "version" "1.0.2"
-
-"encoding@0.1.13":
-  "integrity" "sha1-VldK/deR9UqOmyeFwFgqLSYhD6k="
-  "resolved" "http://registry.npm.release.ctripcorp.com/encoding/download/encoding-0.1.13.tgz"
-  "version" "0.1.13"
-  dependencies:
-    "iconv-lite" "^0.6.2"
-
-"es-abstract@^1.19.0", "es-abstract@^1.19.5", "es-abstract@^1.20.0":
-  "integrity" "sha1-AnKSzW70S9ErGRO4KBFvVHh9GBQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/es-abstract/download/es-abstract-1.20.1.tgz"
-  "version" "1.20.1"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "es-to-primitive" "^1.2.1"
-    "function-bind" "^1.1.1"
-    "function.prototype.name" "^1.1.5"
-    "get-intrinsic" "^1.1.1"
-    "get-symbol-description" "^1.0.0"
-    "has" "^1.0.3"
-    "has-property-descriptors" "^1.0.0"
-    "has-symbols" "^1.0.3"
-    "internal-slot" "^1.0.3"
-    "is-callable" "^1.2.4"
-    "is-negative-zero" "^2.0.2"
-    "is-regex" "^1.1.4"
-    "is-shared-array-buffer" "^1.0.2"
-    "is-string" "^1.0.7"
-    "is-weakref" "^1.0.2"
-    "object-inspect" "^1.12.0"
-    "object-keys" "^1.1.1"
-    "object.assign" "^4.1.2"
-    "regexp.prototype.flags" "^1.4.3"
-    "string.prototype.trimend" "^1.0.5"
-    "string.prototype.trimstart" "^1.0.5"
-    "unbox-primitive" "^1.0.2"
-
-"es-to-primitive@^1.2.1":
-  "integrity" "sha1-5VzUyc3BiLzvsDs2bHNjI/xciYo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/es-to-primitive/download/es-to-primitive-1.2.1.tgz"
-  "version" "1.2.1"
-  dependencies:
-    "is-callable" "^1.1.4"
-    "is-date-object" "^1.0.1"
-    "is-symbol" "^1.0.2"
-
-"es6-object-assign@^1.1.0":
-  "integrity" "sha1-wsNYJlYkfDnqEHyx5mUrb58kUjw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/es6-object-assign/download/es6-object-assign-1.1.0.tgz"
-  "version" "1.1.0"
-
-"escalade@^3.1.1":
-  "integrity" "sha1-2M/ccACWXFoBdLSoLqpcBVJ0LkA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/escalade/download/escalade-3.1.1.tgz"
-  "version" "3.1.1"
 
 "escape-html@^1.0.3", "escape-html@~1.0.3":
   "integrity" "sha1-Aljq5NPQwJdN4cFpGI7wBR0dGYg="
   "resolved" "http://registry.npm.release.ctripcorp.com/escape-html/download/escape-html-1.0.3.tgz"
   "version" "1.0.3"
 
-"escape-string-regexp@^1.0.5":
-  "integrity" "sha1-G2HAViGQqN/2rjuyzwIAyhMLhtQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/escape-string-regexp/download/escape-string-regexp-1.0.5.tgz"
-  "version" "1.0.5"
-
-"esutils@^2.0.2":
-  "integrity" "sha1-dNLrTeC42hKTcRkQ1Qd1ubcQ72Q="
-  "resolved" "http://registry.npm.release.ctripcorp.com/esutils/download/esutils-2.0.3.tgz"
-  "version" "2.0.3"
-
-"etag@~1.8.1", "etag@1.8.1":
+"etag@~1.8.1":
   "integrity" "sha1-Qa4u62XvpiJorr/qg6x9eSmbCIc="
   "resolved" "http://registry.npm.release.ctripcorp.com/etag/download/etag-1.8.1.tgz"
   "version" "1.8.1"
-
-"events@^3.0.0":
-  "integrity" "sha1-Mala0Kkk4tLEGagTrrLE6HjqdAA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/events/download/events-3.3.0.tgz"
-  "version" "3.3.0"
-
-"evp_bytestokey@^1.0.0", "evp_bytestokey@^1.0.3":
-  "integrity" "sha1-f8vbGY3HGVlDLv4ThCaE4FJaywI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/evp_bytestokey/download/evp_bytestokey-1.0.3.tgz"
-  "version" "1.0.3"
-  dependencies:
-    "md5.js" "^1.3.4"
-    "safe-buffer" "^5.1.1"
 
 "express-session@^1.17.1":
   "integrity" "sha1-FLmXoV7UPllJyx0HNyVnXdJ3fzY="
@@ -1038,34 +449,10 @@
     "statuses" "2.0.1"
     "unpipe" "~1.0.0"
 
-"find-cache-dir@3.3.1":
-  "integrity" "sha1-ibM/rUpGcNqpT4Vff74x1thP6IA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/find-cache-dir/download/find-cache-dir-3.3.1.tgz"
-  "version" "3.3.1"
-  dependencies:
-    "commondir" "^1.0.1"
-    "make-dir" "^3.0.2"
-    "pkg-dir" "^4.1.0"
-
-"find-up@^4.0.0":
-  "integrity" "sha1-l6/n1s3AvFkoWEt8jXsW6KmqXRk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/find-up/download/find-up-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "locate-path" "^5.0.0"
-    "path-exists" "^4.0.0"
-
 "follow-redirects@^1.14.0":
   "integrity" "sha1-DKakUjBsmyduTTEnSD4pV14getU="
   "resolved" "http://registry.npm.release.ctripcorp.com/follow-redirects/download/follow-redirects-1.15.1.tgz"
   "version" "1.15.1"
-
-"for-each@^0.3.3":
-  "integrity" "sha1-abRH6IoKXTLD5whPPxcQA0shN24="
-  "resolved" "http://registry.npm.release.ctripcorp.com/for-each/download/for-each-0.3.3.tgz"
-  "version" "0.3.3"
-  dependencies:
-    "is-callable" "^1.1.3"
 
 "forwarded@0.2.0":
   "integrity" "sha1-ImmTZCiq1MFcfr6XeahL8LKoGBE="
@@ -1082,22 +469,7 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/function-bind/download/function-bind-1.1.1.tgz"
   "version" "1.1.1"
 
-"function.prototype.name@^1.1.5":
-  "integrity" "sha1-zOBQX+H/uAUD5vnkbMZORqEqliE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/function.prototype.name/download/function.prototype.name-1.1.5.tgz"
-  "version" "1.1.5"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "define-properties" "^1.1.3"
-    "es-abstract" "^1.19.0"
-    "functions-have-names" "^1.2.2"
-
-"functions-have-names@^1.2.2":
-  "integrity" "sha1-BAT+TuK6L2B/Dg7DyAuumUEzuDQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/functions-have-names/download/functions-have-names-1.2.3.tgz"
-  "version" "1.2.3"
-
-"get-intrinsic@^1.0.2", "get-intrinsic@^1.1.0", "get-intrinsic@^1.1.1":
+"get-intrinsic@^1.0.2":
   "integrity" "sha1-M2l1Ej4FrQt7pB8VLuSq2+ps9Zg="
   "resolved" "http://registry.npm.release.ctripcorp.com/get-intrinsic/download/get-intrinsic-1.1.2.tgz"
   "version" "1.1.2"
@@ -1106,61 +478,19 @@
     "has" "^1.0.3"
     "has-symbols" "^1.0.3"
 
-"get-orientation@1.1.2":
-  "integrity" "sha1-IFB5KJUYFPipHe0KDmeynfq5iUc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/get-orientation/download/get-orientation-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "stream-parser" "^0.3.1"
-
-"get-symbol-description@^1.0.0":
-  "integrity" "sha1-f9uByQAQH71WTdXxowr1qtweWNY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/get-symbol-description/download/get-symbol-description-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "get-intrinsic" "^1.1.1"
-
-"glob-parent@~5.1.0", "glob-parent@~5.1.2":
+"glob-parent@~5.1.2":
   "integrity" "sha1-hpgyxYA0/mikCTwX3BXoNA2EAcQ="
   "resolved" "http://registry.npm.release.ctripcorp.com/glob-parent/download/glob-parent-5.1.2.tgz"
   "version" "5.1.2"
   dependencies:
     "is-glob" "^4.0.1"
 
-"glob-to-regexp@^0.4.1":
-  "integrity" "sha1-x1KXCHyFG5pXi9IX3VmpL1n+VG4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/glob-to-regexp/download/glob-to-regexp-0.4.1.tgz"
-  "version" "0.4.1"
-
-"graceful-fs@^4.1.2":
-  "integrity" "sha1-FH06AG2kyjzhRyjHrvwofDZ9emw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/graceful-fs/download/graceful-fs-4.2.10.tgz"
-  "version" "4.2.10"
-
-"has-bigints@^1.0.1", "has-bigints@^1.0.2":
-  "integrity" "sha1-CHG9Pj1RYm9soJZmaLo11WAtbqo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/has-bigints/download/has-bigints-1.0.2.tgz"
-  "version" "1.0.2"
-
 "has-flag@^3.0.0":
   "integrity" "sha1-tdRU3CGZriJWmfNGfloH87lVuv0="
   "resolved" "http://registry.npm.release.ctripcorp.com/has-flag/download/has-flag-3.0.0.tgz"
   "version" "3.0.0"
 
-"has-flag@^4.0.0":
-  "integrity" "sha1-lEdx/ZyByBJlxNaUGGDaBrtZR5s="
-  "resolved" "http://registry.npm.release.ctripcorp.com/has-flag/download/has-flag-4.0.0.tgz"
-  "version" "4.0.0"
-
-"has-property-descriptors@^1.0.0":
-  "integrity" "sha1-YQcIYAYG02lh7QTBlhk7amB/qGE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/has-property-descriptors/download/has-property-descriptors-1.0.0.tgz"
-  "version" "1.0.0"
-  dependencies:
-    "get-intrinsic" "^1.1.1"
-
-"has-symbols@^1.0.1", "has-symbols@^1.0.2", "has-symbols@^1.0.3":
+"has-symbols@^1.0.2", "has-symbols@^1.0.3":
   "integrity" "sha1-u3ssQ0klHc6HsSX3vfh0qnyLOfg="
   "resolved" "http://registry.npm.release.ctripcorp.com/has-symbols/download/has-symbols-1.0.3.tgz"
   "version" "1.0.3"
@@ -1178,37 +508,6 @@
   "version" "1.0.3"
   dependencies:
     "function-bind" "^1.1.1"
-
-"hash-base@^3.0.0":
-  "integrity" "sha1-VcOB2eBuHSmXqIO0o/3f5/DTrzM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/hash-base/download/hash-base-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "inherits" "^2.0.4"
-    "readable-stream" "^3.6.0"
-    "safe-buffer" "^5.2.0"
-
-"hash.js@^1.0.0", "hash.js@^1.0.3":
-  "integrity" "sha1-C6vKU46NTuSg+JiNaIZlN6ADz0I="
-  "resolved" "http://registry.npm.release.ctripcorp.com/hash.js/download/hash.js-1.1.7.tgz"
-  "version" "1.1.7"
-  dependencies:
-    "inherits" "^2.0.3"
-    "minimalistic-assert" "^1.0.1"
-
-"he@1.2.0":
-  "integrity" "sha1-hK5l+n6vsWX922FWauFLrwVmTw8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/he/download/he-1.2.0.tgz"
-  "version" "1.2.0"
-
-"hmac-drbg@^1.0.1":
-  "integrity" "sha1-0nRXAQJabHdabFRXk+1QL8DGSaE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/hmac-drbg/download/hmac-drbg-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "hash.js" "^1.0.3"
-    "minimalistic-assert" "^1.0.0"
-    "minimalistic-crypto-utils" "^1.0.1"
 
 "hoist-non-react-statics@^3.3.0", "hoist-non-react-statics@^3.3.2":
   "integrity" "sha1-7OCsr3HWLClpwuxZ/v9CpLGoW0U="
@@ -1258,17 +557,6 @@
     "statuses" ">= 1.5.0 < 2"
     "toidentifier" "1.0.1"
 
-"http-errors@1.7.3":
-  "integrity" "sha1-bGGeT5xgMIw4UZSYwU+7EKrOuwY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/http-errors/download/http-errors-1.7.3.tgz"
-  "version" "1.7.3"
-  dependencies:
-    "depd" "~1.1.2"
-    "inherits" "2.0.4"
-    "setprototypeof" "1.1.1"
-    "statuses" ">= 1.5.0 < 2"
-    "toidentifier" "1.0.0"
-
 "http-errors@2.0.0":
   "integrity" "sha1-t3dKFIbvc892Z6ya4IWMASxXudM="
   "resolved" "http://registry.npm.release.ctripcorp.com/http-errors/download/http-errors-2.0.0.tgz"
@@ -1280,18 +568,6 @@
     "statuses" "2.0.1"
     "toidentifier" "1.0.1"
 
-"https-browserify@^1.0.0", "https-browserify@1.0.0":
-  "integrity" "sha1-7AbBDgo0wPL68Zn3/X/Hj//QPHM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/https-browserify/download/https-browserify-1.0.0.tgz"
-  "version" "1.0.0"
-
-"iconv-lite@^0.6.2":
-  "integrity" "sha1-pS+AvzjaGVLrXGgXkHGYcaGnJQE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/iconv-lite/download/iconv-lite-0.6.3.tgz"
-  "version" "0.6.3"
-  dependencies:
-    "safer-buffer" ">= 2.1.2 < 3.0.0"
-
 "iconv-lite@0.4.24":
   "integrity" "sha1-ICK0sl+93CHS9SSXSkdKr+czkIs="
   "resolved" "http://registry.npm.release.ctripcorp.com/iconv-lite/download/iconv-lite-0.4.24.tgz"
@@ -1299,59 +575,20 @@
   dependencies:
     "safer-buffer" ">= 2.1.2 < 3"
 
-"ieee754@^1.1.4":
-  "integrity" "sha1-jrehCmP/8l0VpXsAFYbRd9Gw01I="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ieee754/download/ieee754-1.2.1.tgz"
-  "version" "1.2.1"
-
 "ignore-by-default@^1.0.1":
   "integrity" "sha1-SMptcvbGo68Aqa1K5odr44ieKwk="
   "resolved" "http://registry.npm.release.ctripcorp.com/ignore-by-default/download/ignore-by-default-1.0.1.tgz"
   "version" "1.0.1"
 
-"inherits@^2.0.1", "inherits@^2.0.3", "inherits@^2.0.4", "inherits@~2.0.3", "inherits@~2.0.4", "inherits@2.0.4":
+"inherits@~2.0.3", "inherits@2.0.4":
   "integrity" "sha1-D6LGT5MpF8NDOg3tVTY6rjdBa3w="
   "resolved" "http://registry.npm.release.ctripcorp.com/inherits/download/inherits-2.0.4.tgz"
   "version" "2.0.4"
-
-"inherits@~2.0.1", "inherits@2.0.1":
-  "integrity" "sha1-sX0I0ya0Qj5Wjv9xn5GwscvfafE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/inherits/download/inherits-2.0.1.tgz"
-  "version" "2.0.1"
-
-"inherits@2.0.3":
-  "integrity" "sha1-Yzwsg+PaQqUC9SRmAiSA9CCCYd4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/inherits/download/inherits-2.0.3.tgz"
-  "version" "2.0.3"
-
-"internal-slot@^1.0.3":
-  "integrity" "sha1-c0fjB97uovqsKsYgXUvH00ln9Zw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/internal-slot/download/internal-slot-1.0.3.tgz"
-  "version" "1.0.3"
-  dependencies:
-    "get-intrinsic" "^1.1.0"
-    "has" "^1.0.3"
-    "side-channel" "^1.0.4"
 
 "ipaddr.js@1.9.1":
   "integrity" "sha1-v/OFQ+64mEglB5/zoqjmy9RngbM="
   "resolved" "http://registry.npm.release.ctripcorp.com/ipaddr.js/download/ipaddr.js-1.9.1.tgz"
   "version" "1.9.1"
-
-"is-arguments@^1.0.4":
-  "integrity" "sha1-FbP4j9oB8ql/7ITKdhpWDxI++ps="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-arguments/download/is-arguments-1.1.1.tgz"
-  "version" "1.1.1"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "has-tostringtag" "^1.0.0"
-
-"is-bigint@^1.0.1":
-  "integrity" "sha1-CBR6GHW8KzIAXUHM2Ckd/8ZpHfM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-bigint/download/is-bigint-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "has-bigints" "^1.0.1"
 
 "is-binary-path@~2.1.0":
   "integrity" "sha1-6h9/O4DwZCNug0cPhsCcJU+0Wwk="
@@ -1359,26 +596,6 @@
   "version" "2.1.0"
   dependencies:
     "binary-extensions" "^2.0.0"
-
-"is-boolean-object@^1.1.0":
-  "integrity" "sha1-XG3CACRt2TIa5LiFoRS7H3X2Nxk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-boolean-object/download/is-boolean-object-1.1.2.tgz"
-  "version" "1.1.2"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "has-tostringtag" "^1.0.0"
-
-"is-callable@^1.1.3", "is-callable@^1.1.4", "is-callable@^1.2.4":
-  "integrity" "sha1-RzAdWN0CWUB4ZVR4U99tYf5HGUU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-callable/download/is-callable-1.2.4.tgz"
-  "version" "1.2.4"
-
-"is-date-object@^1.0.1":
-  "integrity" "sha1-CEHVU25yTCVZe/bqYuG9OCmN8x8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-date-object/download/is-date-object-1.0.5.tgz"
-  "version" "1.0.5"
-  dependencies:
-    "has-tostringtag" "^1.0.0"
 
 "is-extglob@^2.1.1":
   "integrity" "sha1-qIwCU1eR8C7TfHahueqXc8gz+MI="
@@ -1399,103 +616,20 @@
   dependencies:
     "is-extglob" "^2.1.1"
 
-"is-nan@^1.2.1":
-  "integrity" "sha1-BDpUreoxdItVts1OCara+mm9nh0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-nan/download/is-nan-1.3.2.tgz"
-  "version" "1.3.2"
-  dependencies:
-    "call-bind" "^1.0.0"
-    "define-properties" "^1.1.3"
-
-"is-negative-zero@^2.0.2":
-  "integrity" "sha1-e/bwOigAO4s5Zd46wm9mTXZfMVA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-negative-zero/download/is-negative-zero-2.0.2.tgz"
-  "version" "2.0.2"
-
-"is-number-object@^1.0.4":
-  "integrity" "sha1-WdUK2kxFJReE6ZBPUkbHQvB6Qvw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-number-object/download/is-number-object-1.0.7.tgz"
-  "version" "1.0.7"
-  dependencies:
-    "has-tostringtag" "^1.0.0"
-
 "is-number@^7.0.0":
   "integrity" "sha1-dTU0W4lnNNX4DE0GxQlVUnoU8Ss="
   "resolved" "http://registry.npm.release.ctripcorp.com/is-number/download/is-number-7.0.0.tgz"
   "version" "7.0.0"
 
-"is-regex@^1.1.4":
-  "integrity" "sha1-7vVmPNWfpMCuM5UFMj32hUuxWVg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-regex/download/is-regex-1.1.4.tgz"
-  "version" "1.1.4"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "has-tostringtag" "^1.0.0"
-
-"is-shared-array-buffer@^1.0.2":
-  "integrity" "sha1-jyWcVztgtqMtQFihoHQwwKc0THk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-shared-array-buffer/download/is-shared-array-buffer-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "call-bind" "^1.0.2"
-
-"is-string@^1.0.5", "is-string@^1.0.7":
-  "integrity" "sha1-DdEr8gBvJVu1j2lREO/3SR7rwP0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-string/download/is-string-1.0.7.tgz"
-  "version" "1.0.7"
-  dependencies:
-    "has-tostringtag" "^1.0.0"
-
-"is-symbol@^1.0.2", "is-symbol@^1.0.3":
-  "integrity" "sha1-ptrJO2NbBjymhyI23oiRClevE5w="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-symbol/download/is-symbol-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "has-symbols" "^1.0.2"
-
-"is-typed-array@^1.1.3", "is-typed-array@^1.1.9":
-  "integrity" "sha1-JG130ocefZ9a6x1UufUscTKezmc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-typed-array/download/is-typed-array-1.1.9.tgz"
-  "version" "1.1.9"
-  dependencies:
-    "available-typed-arrays" "^1.0.5"
-    "call-bind" "^1.0.2"
-    "es-abstract" "^1.20.0"
-    "for-each" "^0.3.3"
-    "has-tostringtag" "^1.0.0"
-
-"is-weakref@^1.0.2":
-  "integrity" "sha1-lSnzg6kzggXol2XgOS78LxAPBvI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/is-weakref/download/is-weakref-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "call-bind" "^1.0.2"
-
-"isarray@^1.0.0", "isarray@~1.0.0":
+"isarray@~1.0.0":
   "integrity" "sha1-u5NdSFgsuhaMBoNJV6VKPgcSTxE="
   "resolved" "http://registry.npm.release.ctripcorp.com/isarray/download/isarray-1.0.0.tgz"
   "version" "1.0.0"
 
-"jest-worker@27.0.0-next.5":
-  "integrity" "sha1-WYXuKbEqThkfSq5LtzuXlx2G7Cg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/jest-worker/download/jest-worker-27.0.0-next.5.tgz"
-  "version" "27.0.0-next.5"
-  dependencies:
-    "@types/node" "*"
-    "merge-stream" "^2.0.0"
-    "supports-color" "^8.0.0"
-
-"js-tokens@^3.0.0 || ^4.0.0", "js-tokens@^4.0.0":
+"js-tokens@^3.0.0 || ^4.0.0":
   "integrity" "sha1-GSA/tZmR35jjoocFDUZHzerzJJk="
   "resolved" "http://registry.npm.release.ctripcorp.com/js-tokens/download/js-tokens-4.0.0.tgz"
   "version" "4.0.0"
-
-"json5@^1.0.1":
-  "integrity" "sha1-d5+wAYYE+oVOrL9iUhgNg1Q+Pb4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/json5/download/json5-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "minimist" "^1.2.0"
 
 "kareem@2.3.2":
   "integrity" "sha1-eMRQiJSYW404oNwV4ajhEHjyypM="
@@ -1562,54 +696,12 @@
     "type-is" "^1.6.16"
     "vary" "^1.1.2"
 
-"loader-utils@1.2.3":
-  "integrity" "sha1-H/XcaRHJ8KBiUxpMBLYJQGEIwsc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/loader-utils/download/loader-utils-1.2.3.tgz"
-  "version" "1.2.3"
-  dependencies:
-    "big.js" "^5.2.2"
-    "emojis-list" "^2.0.0"
-    "json5" "^1.0.1"
-
-"locate-path@^5.0.0":
-  "integrity" "sha1-Gvujlq/WdqbUJQTQpno6frn2KqA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/locate-path/download/locate-path-5.0.0.tgz"
-  "version" "5.0.0"
-  dependencies:
-    "p-locate" "^4.1.0"
-
-"lodash.sortby@^4.7.0":
-  "integrity" "sha1-7dFMgk4sycHgsKG0K7UhBRakJDg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/lodash.sortby/download/lodash.sortby-4.7.0.tgz"
-  "version" "4.7.0"
-
-"lodash@^4.17.13":
-  "integrity" "sha1-Z5WRxWTDv/quhFTPCz3zcMPWkRw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/lodash/download/lodash-4.17.21.tgz"
-  "version" "4.17.21"
-
 "loose-envify@^1.1.0", "loose-envify@^1.4.0":
   "integrity" "sha1-ce5R+nvkyuwaY4OffmgtgTLTDK8="
   "resolved" "http://registry.npm.release.ctripcorp.com/loose-envify/download/loose-envify-1.4.0.tgz"
   "version" "1.4.0"
   dependencies:
     "js-tokens" "^3.0.0 || ^4.0.0"
-
-"make-dir@^3.0.2":
-  "integrity" "sha1-QV6WcEazp/HRhSd9hKpYIDcmoT8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/make-dir/download/make-dir-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "semver" "^6.0.0"
-
-"md5.js@^1.3.4":
-  "integrity" "sha1-tdB7jjIW4+J81yjXL3DR5qNCAF8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/md5.js/download/md5.js-1.3.5.tgz"
-  "version" "1.3.5"
-  dependencies:
-    "hash-base" "^3.0.0"
-    "inherits" "^2.0.1"
-    "safe-buffer" "^5.1.2"
 
 "media-typer@0.3.0":
   "integrity" "sha1-hxDXrwqmJvj/+hzgAWhUUmMlV0g="
@@ -1626,23 +718,10 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/merge-descriptors/download/merge-descriptors-1.0.1.tgz"
   "version" "1.0.1"
 
-"merge-stream@^2.0.0":
-  "integrity" "sha1-UoI2KaFN0AyXcPtq1H3GMQ8sH2A="
-  "resolved" "http://registry.npm.release.ctripcorp.com/merge-stream/download/merge-stream-2.0.0.tgz"
-  "version" "2.0.0"
-
 "methods@^1.1.2", "methods@~1.1.2":
   "integrity" "sha1-VSmk1nZUE07cxSZmVoNbD4Ua/O4="
   "resolved" "http://registry.npm.release.ctripcorp.com/methods/download/methods-1.1.2.tgz"
   "version" "1.1.2"
-
-"miller-rabin@^4.0.0":
-  "integrity" "sha1-8IA1HIZbDcViqEYpZtqlNUPHik0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/miller-rabin/download/miller-rabin-4.0.1.tgz"
-  "version" "4.0.1"
-  dependencies:
-    "bn.js" "^4.0.0"
-    "brorand" "^1.0.1"
 
 "mime-db@1.52.0":
   "integrity" "sha1-u6vNwChZ9JhzAchW4zh85exDv3A="
@@ -1661,27 +740,12 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/mime/download/mime-1.6.0.tgz"
   "version" "1.6.0"
 
-"minimalistic-assert@^1.0.0", "minimalistic-assert@^1.0.1":
-  "integrity" "sha1-LhlN4ERibUoQ5/f7wAznPoPk1cc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/minimalistic-assert/download/minimalistic-assert-1.0.1.tgz"
-  "version" "1.0.1"
-
-"minimalistic-crypto-utils@^1.0.1":
-  "integrity" "sha1-9sAMHAsIIkblxNmd+4x8CDsrWCo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/minimalistic-crypto-utils/download/minimalistic-crypto-utils-1.0.1.tgz"
-  "version" "1.0.1"
-
 "minimatch@^3.1.2":
   "integrity" "sha1-Gc0ZS/0+Qo8EmnCBfAONiatL41s="
   "resolved" "http://registry.npm.release.ctripcorp.com/minimatch/download/minimatch-3.1.2.tgz"
   "version" "3.1.2"
   dependencies:
     "brace-expansion" "^1.1.7"
-
-"minimist@^1.2.0":
-  "integrity" "sha1-hjelt1nqDW6YcCz7OpKDMjyTr0Q="
-  "resolved" "http://registry.npm.release.ctripcorp.com/minimist/download/minimist-1.2.6.tgz"
-  "version" "1.2.6"
 
 "moment@^2.29.1":
   "integrity" "sha1-Pb4FKIn+fBsu2Wb8s6dzKJZO8Qg="
@@ -1762,124 +826,41 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/ms/download/ms-2.1.3.tgz"
   "version" "2.1.3"
 
-"nanoid@^3.1.22":
+"nanoid@^3.3.4":
   "integrity" "sha1-cwtn480J4t6s8DwCfIHJ2dvF6Ks="
   "resolved" "http://registry.npm.release.ctripcorp.com/nanoid/download/nanoid-3.3.4.tgz"
   "version" "3.3.4"
-
-"native-url@0.3.4":
-  "integrity" "sha1-KclDFyrthsY87mLIwE239XVmYfg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/native-url/download/native-url-0.3.4.tgz"
-  "version" "0.3.4"
-  dependencies:
-    "querystring" "^0.2.0"
 
 "negotiator@0.6.3":
   "integrity" "sha1-WOMjpy/twNb5zU0x/kn1FHlZDM0="
   "resolved" "http://registry.npm.release.ctripcorp.com/negotiator/download/negotiator-0.6.3.tgz"
   "version" "0.6.3"
 
-"next@^10.0.5":
-  "integrity" "sha1-WqBYpjYmM4zqkcGY/ajycVwFg5Q="
-  "resolved" "http://registry.npm.release.ctripcorp.com/next/download/next-10.2.3.tgz"
-  "version" "10.2.3"
+"next@^13.0.0":
+  "integrity" "sha1-bwcGSk83RWLPWGd7703QYybKZIs="
+  "resolved" "http://registry.npm.release.ctripcorp.com/next/download/next-13.0.0.tgz"
+  "version" "13.0.0"
   dependencies:
-    "@babel/runtime" "7.12.5"
-    "@hapi/accept" "5.0.2"
-    "@next/env" "10.2.3"
-    "@next/polyfill-module" "10.2.3"
-    "@next/react-dev-overlay" "10.2.3"
-    "@next/react-refresh-utils" "10.2.3"
-    "@opentelemetry/api" "0.14.0"
-    "assert" "2.0.0"
-    "ast-types" "0.13.2"
-    "browserify-zlib" "0.2.0"
-    "browserslist" "4.16.6"
-    "buffer" "5.6.0"
-    "caniuse-lite" "^1.0.30001228"
-    "chalk" "2.4.2"
-    "chokidar" "3.5.1"
-    "constants-browserify" "1.0.0"
-    "crypto-browserify" "3.12.0"
-    "cssnano-simple" "2.0.0"
-    "domain-browser" "4.19.0"
-    "encoding" "0.1.13"
-    "etag" "1.8.1"
-    "find-cache-dir" "3.3.1"
-    "get-orientation" "1.1.2"
-    "https-browserify" "1.0.0"
-    "jest-worker" "27.0.0-next.5"
-    "native-url" "0.3.4"
-    "node-fetch" "2.6.1"
-    "node-html-parser" "1.4.9"
-    "node-libs-browser" "^2.2.1"
-    "os-browserify" "0.3.0"
-    "p-limit" "3.1.0"
-    "path-browserify" "1.0.1"
-    "pnp-webpack-plugin" "1.6.4"
-    "postcss" "8.2.13"
-    "process" "0.11.10"
-    "prop-types" "15.7.2"
-    "querystring-es3" "0.2.1"
-    "raw-body" "2.4.1"
-    "react-is" "16.13.1"
-    "react-refresh" "0.8.3"
-    "stream-browserify" "3.0.0"
-    "stream-http" "3.1.1"
-    "string_decoder" "1.3.0"
-    "styled-jsx" "3.3.2"
-    "timers-browserify" "2.0.12"
-    "tty-browserify" "0.0.1"
-    "use-subscription" "1.5.1"
-    "util" "0.12.3"
-    "vm-browserify" "1.1.2"
-    "watchpack" "2.1.1"
-
-"node-fetch@2.6.1":
-  "integrity" "sha1-BFvTI2Mfdu0uK1VXM5RBa2OaAFI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/node-fetch/download/node-fetch-2.6.1.tgz"
-  "version" "2.6.1"
-
-"node-html-parser@1.4.9":
-  "integrity" "sha1-PI9srEZHn65YAHJe21Mumuj9gWw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/node-html-parser/download/node-html-parser-1.4.9.tgz"
-  "version" "1.4.9"
-  dependencies:
-    "he" "1.2.0"
-
-"node-libs-browser@^2.2.1":
-  "integrity" "sha1-tk9RPRgzhiX5A0bSew0jXmMfZCU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/node-libs-browser/download/node-libs-browser-2.2.1.tgz"
-  "version" "2.2.1"
-  dependencies:
-    "assert" "^1.1.1"
-    "browserify-zlib" "^0.2.0"
-    "buffer" "^4.3.0"
-    "console-browserify" "^1.1.0"
-    "constants-browserify" "^1.0.0"
-    "crypto-browserify" "^3.11.0"
-    "domain-browser" "^1.1.1"
-    "events" "^3.0.0"
-    "https-browserify" "^1.0.0"
-    "os-browserify" "^0.3.0"
-    "path-browserify" "0.0.1"
-    "process" "^0.11.10"
-    "punycode" "^1.2.4"
-    "querystring-es3" "^0.2.0"
-    "readable-stream" "^2.3.3"
-    "stream-browserify" "^2.0.1"
-    "stream-http" "^2.7.2"
-    "string_decoder" "^1.0.0"
-    "timers-browserify" "^2.0.4"
-    "tty-browserify" "0.0.0"
-    "url" "^0.11.0"
-    "util" "^0.11.0"
-    "vm-browserify" "^1.0.1"
-
-"node-releases@^1.1.71":
-  "integrity" "sha1-ULDP7ehV3TdOdYW/Io/zTlfBwy4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/node-releases/download/node-releases-1.1.77.tgz"
-  "version" "1.1.77"
+    "@next/env" "13.0.0"
+    "@swc/helpers" "0.4.11"
+    "caniuse-lite" "^1.0.30001406"
+    "postcss" "8.4.14"
+    "styled-jsx" "5.1.0"
+    "use-sync-external-store" "1.2.0"
+  optionalDependencies:
+    "@next/swc-android-arm-eabi" "13.0.0"
+    "@next/swc-android-arm64" "13.0.0"
+    "@next/swc-darwin-arm64" "13.0.0"
+    "@next/swc-darwin-x64" "13.0.0"
+    "@next/swc-freebsd-x64" "13.0.0"
+    "@next/swc-linux-arm-gnueabihf" "13.0.0"
+    "@next/swc-linux-arm64-gnu" "13.0.0"
+    "@next/swc-linux-arm64-musl" "13.0.0"
+    "@next/swc-linux-x64-gnu" "13.0.0"
+    "@next/swc-linux-x64-musl" "13.0.0"
+    "@next/swc-win32-arm64-msvc" "13.0.0"
+    "@next/swc-win32-ia32-msvc" "13.0.0"
+    "@next/swc-win32-x64-msvc" "13.0.0"
 
 "nodemon@^2.0.20":
   "integrity" "sha1-41N952ikkujXTaXFgTywx0hvxwE="
@@ -1914,33 +895,10 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/object-assign/download/object-assign-4.1.1.tgz"
   "version" "4.1.1"
 
-"object-inspect@^1.12.0", "object-inspect@^1.9.0":
+"object-inspect@^1.9.0":
   "integrity" "sha1-wGQfJjlFMvKKuNeWq5VOQ8AJqOo="
   "resolved" "http://registry.npm.release.ctripcorp.com/object-inspect/download/object-inspect-1.12.2.tgz"
   "version" "1.12.2"
-
-"object-is@^1.0.1":
-  "integrity" "sha1-ud7qpfx/GEag+uzc7sE45XePU6w="
-  "resolved" "http://registry.npm.release.ctripcorp.com/object-is/download/object-is-1.1.5.tgz"
-  "version" "1.1.5"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "define-properties" "^1.1.3"
-
-"object-keys@^1.1.1":
-  "integrity" "sha1-HEfyct8nfzsdrwYWd9nILiMixg4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/object-keys/download/object-keys-1.1.1.tgz"
-  "version" "1.1.1"
-
-"object.assign@^4.1.2":
-  "integrity" "sha1-DtVKNC7Os3s4/3brgxoOeIy2OUA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/object.assign/download/object.assign-4.1.2.tgz"
-  "version" "4.1.2"
-  dependencies:
-    "call-bind" "^1.0.0"
-    "define-properties" "^1.1.3"
-    "has-symbols" "^1.0.1"
-    "object-keys" "^1.1.1"
 
 "on-finished@^2.3.0", "on-finished@2.4.1":
   "integrity" "sha1-WMjEQRblSEWtV/FKsQsDUzGErD8="
@@ -1971,72 +929,10 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/optional-require/download/optional-require-1.0.3.tgz"
   "version" "1.0.3"
 
-"os-browserify@^0.3.0", "os-browserify@0.3.0":
-  "integrity" "sha1-hUNzx/XCMVkU/Jv8a9gjj92h7Cc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/os-browserify/download/os-browserify-0.3.0.tgz"
-  "version" "0.3.0"
-
-"p-limit@^2.2.0":
-  "integrity" "sha1-PdM8ZHohT9//2DWTPrCG2g3CHbE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/p-limit/download/p-limit-2.3.0.tgz"
-  "version" "2.3.0"
-  dependencies:
-    "p-try" "^2.0.0"
-
-"p-limit@3.1.0":
-  "integrity" "sha1-4drMvnjQ0TiMoYxk/qOOPlfjcGs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/p-limit/download/p-limit-3.1.0.tgz"
-  "version" "3.1.0"
-  dependencies:
-    "yocto-queue" "^0.1.0"
-
-"p-locate@^4.1.0":
-  "integrity" "sha1-o0KLtwiLOmApL2aRkni3wpetTwc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/p-locate/download/p-locate-4.1.0.tgz"
-  "version" "4.1.0"
-  dependencies:
-    "p-limit" "^2.2.0"
-
-"p-try@^2.0.0":
-  "integrity" "sha1-yyhoVA4xPWHeWPr741zpAE1VQOY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/p-try/download/p-try-2.2.0.tgz"
-  "version" "2.2.0"
-
-"pako@~1.0.5":
-  "integrity" "sha1-bJWZ00DVTf05RjgCUqNXBaa5kr8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/pako/download/pako-1.0.11.tgz"
-  "version" "1.0.11"
-
-"parse-asn1@^5.0.0", "parse-asn1@^5.1.5":
-  "integrity" "sha1-OFCAo+wTy2KmLTlAnLPoiETNrtQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/parse-asn1/download/parse-asn1-5.1.6.tgz"
-  "version" "5.1.6"
-  dependencies:
-    "asn1.js" "^5.2.0"
-    "browserify-aes" "^1.0.0"
-    "evp_bytestokey" "^1.0.0"
-    "pbkdf2" "^3.0.3"
-    "safe-buffer" "^5.1.1"
-
 "parseurl@^1.3.2", "parseurl@~1.3.3":
   "integrity" "sha1-naGee+6NEt/wUT7Vt2lXeTvC6NQ="
   "resolved" "http://registry.npm.release.ctripcorp.com/parseurl/download/parseurl-1.3.3.tgz"
   "version" "1.3.3"
-
-"path-browserify@0.0.1":
-  "integrity" "sha1-5sTd1+06onxoogzE5Q4aTug7vEo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/path-browserify/download/path-browserify-0.0.1.tgz"
-  "version" "0.0.1"
-
-"path-browserify@1.0.1":
-  "integrity" "sha1-2YRUqcN1PVeQhg8W9ohnueRr4f0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/path-browserify/download/path-browserify-1.0.1.tgz"
-  "version" "1.0.1"
-
-"path-exists@^4.0.0":
-  "integrity" "sha1-UTvb4tO5XXdi6METfvoZXGxhtbM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/path-exists/download/path-exists-4.0.0.tgz"
-  "version" "4.0.0"
 
 "path-to-regexp@^6.1.0":
   "integrity" "sha1-1Uk01nmOueXvFOeveWLJRZBpGOU="
@@ -2048,61 +944,31 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/path-to-regexp/download/path-to-regexp-0.1.7.tgz"
   "version" "0.1.7"
 
-"pbkdf2@^3.0.3":
-  "integrity" "sha1-3YIqoIh1gOUvGgOdw+2hCO+uMHU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/pbkdf2/download/pbkdf2-3.1.2.tgz"
-  "version" "3.1.2"
-  dependencies:
-    "create-hash" "^1.1.2"
-    "create-hmac" "^1.1.4"
-    "ripemd160" "^2.0.1"
-    "safe-buffer" "^5.0.1"
-    "sha.js" "^2.4.8"
+"picocolors@^1.0.0":
+  "integrity" "sha1-y1vcdP8/UYkiNur3nWi8RFZKuBw="
+  "resolved" "http://registry.npm.release.ctripcorp.com/picocolors/download/picocolors-1.0.0.tgz"
+  "version" "1.0.0"
 
 "picomatch@^2.0.4", "picomatch@^2.2.1":
   "integrity" "sha1-O6ODNzNkbZ0+SZWUbBNlpn+wekI="
   "resolved" "http://registry.npm.release.ctripcorp.com/picomatch/download/picomatch-2.3.1.tgz"
   "version" "2.3.1"
 
-"pkg-dir@^4.1.0":
-  "integrity" "sha1-8JkTPfft5CLoHR2ESCcO6z5CYfM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/pkg-dir/download/pkg-dir-4.2.0.tgz"
-  "version" "4.2.0"
+"postcss@8.4.14":
+  "integrity" "sha1-7pJ01WIrSFjBAHp0125C5W/SHK8="
+  "resolved" "http://registry.npm.release.ctripcorp.com/postcss/download/postcss-8.4.14.tgz"
+  "version" "8.4.14"
   dependencies:
-    "find-up" "^4.0.0"
-
-"platform@1.3.6":
-  "integrity" "sha1-SLTOmDFksgnC1FoQetsx9HOm56c="
-  "resolved" "http://registry.npm.release.ctripcorp.com/platform/download/platform-1.3.6.tgz"
-  "version" "1.3.6"
-
-"pnp-webpack-plugin@1.6.4":
-  "integrity" "sha1-yXEaxNxIpoXauvyG+Lbdn434QUk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/pnp-webpack-plugin/download/pnp-webpack-plugin-1.6.4.tgz"
-  "version" "1.6.4"
-  dependencies:
-    "ts-pnp" "^1.1.6"
-
-"postcss@^8.2.1", "postcss@^8.2.2", "postcss@8.2.13":
-  "integrity" "sha1-2+BD4m48Bo5FETse1jddLTfiEp8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/postcss/download/postcss-8.2.13.tgz"
-  "version" "8.2.13"
-  dependencies:
-    "colorette" "^1.2.2"
-    "nanoid" "^3.1.22"
-    "source-map" "^0.6.1"
+    "nanoid" "^3.3.4"
+    "picocolors" "^1.0.0"
+    "source-map-js" "^1.0.2"
 
 "process-nextick-args@~2.0.0":
   "integrity" "sha1-eCDZsWEgzFXKmud5JoCufbptf+I="
   "resolved" "http://registry.npm.release.ctripcorp.com/process-nextick-args/download/process-nextick-args-2.0.1.tgz"
   "version" "2.0.1"
 
-"process@^0.11.10", "process@0.11.10":
-  "integrity" "sha1-czIwDoQBYb2j5podHZGn1LwW8YI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/process/download/process-0.11.10.tgz"
-  "version" "0.11.10"
-
-"prop-types@^15.7.2", "prop-types@15.7.2":
+"prop-types@^15.7.2":
   "integrity" "sha1-UsQedbjIfnK52TYOAga5ncv/psU="
   "resolved" "http://registry.npm.release.ctripcorp.com/prop-types/download/prop-types-15.7.2.tgz"
   "version" "15.7.2"
@@ -2124,33 +990,6 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/pstree.remy/download/pstree.remy-1.1.8.tgz"
   "version" "1.1.8"
 
-"public-encrypt@^4.0.0":
-  "integrity" "sha1-T8ydd6B+SLp1J+fL4N4z0HATMeA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/public-encrypt/download/public-encrypt-4.0.3.tgz"
-  "version" "4.0.3"
-  dependencies:
-    "bn.js" "^4.1.0"
-    "browserify-rsa" "^4.0.0"
-    "create-hash" "^1.1.0"
-    "parse-asn1" "^5.0.0"
-    "randombytes" "^2.0.1"
-    "safe-buffer" "^5.1.2"
-
-"punycode@^1.2.4":
-  "integrity" "sha1-wNWmOycYgArY4esPpSachN1BhF4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/punycode/download/punycode-1.4.1.tgz"
-  "version" "1.4.1"
-
-"punycode@^2.1.0":
-  "integrity" "sha1-tYsBCsQMIsVldhbI0sLALHv0eew="
-  "resolved" "http://registry.npm.release.ctripcorp.com/punycode/download/punycode-2.1.1.tgz"
-  "version" "2.1.1"
-
-"punycode@1.3.2":
-  "integrity" "sha1-llOgNvt8HuQjQvIyXM7v6jkmxI0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/punycode/download/punycode-1.3.2.tgz"
-  "version" "1.3.2"
-
 "qs@6.10.3":
   "integrity" "sha1-1s3hsv/Kh7WqV4iYFsX4FTXiLo4="
   "resolved" "http://registry.npm.release.ctripcorp.com/qs/download/qs-6.10.3.tgz"
@@ -2158,55 +997,15 @@
   dependencies:
     "side-channel" "^1.0.4"
 
-"querystring-es3@^0.2.0", "querystring-es3@0.2.1":
-  "integrity" "sha1-nsYfeQSYdXB9aUFFlv2Qek1xHnM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/querystring-es3/download/querystring-es3-0.2.1.tgz"
-  "version" "0.2.1"
-
-"querystring@^0.2.0":
-  "integrity" "sha1-QNd2FbsJ0WkCqFw+OKqLXtdhwt0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/querystring/download/querystring-0.2.1.tgz"
-  "version" "0.2.1"
-
-"querystring@0.2.0":
-  "integrity" "sha1-sgmEkgO7Jd+CDadW50cAWHhSFiA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/querystring/download/querystring-0.2.0.tgz"
-  "version" "0.2.0"
-
 "random-bytes@~1.0.0":
   "integrity" "sha1-T2ih3Arli9P7lYSMMDJNt11kNgs="
   "resolved" "http://registry.npm.release.ctripcorp.com/random-bytes/download/random-bytes-1.0.0.tgz"
   "version" "1.0.0"
 
-"randombytes@^2.0.0", "randombytes@^2.0.1", "randombytes@^2.0.5":
-  "integrity" "sha1-32+ENy8CcNxlzfYpE0mrekc9Tyo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/randombytes/download/randombytes-2.1.0.tgz"
-  "version" "2.1.0"
-  dependencies:
-    "safe-buffer" "^5.1.0"
-
-"randomfill@^1.0.3":
-  "integrity" "sha1-ySGW/IarQr6YPxvzF3giSTHWFFg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/randomfill/download/randomfill-1.0.4.tgz"
-  "version" "1.0.4"
-  dependencies:
-    "randombytes" "^2.0.5"
-    "safe-buffer" "^5.1.0"
-
 "range-parser@~1.2.1":
   "integrity" "sha1-PPNwI9GZ4cJNGlW4SADC8+ZGgDE="
   "resolved" "http://registry.npm.release.ctripcorp.com/range-parser/download/range-parser-1.2.1.tgz"
   "version" "1.2.1"
-
-"raw-body@2.4.1":
-  "integrity" "sha1-MKyC+Yu1rowVLmcUnayNVRU7Fow="
-  "resolved" "http://registry.npm.release.ctripcorp.com/raw-body/download/raw-body-2.4.1.tgz"
-  "version" "2.4.1"
-  dependencies:
-    "bytes" "3.1.0"
-    "http-errors" "1.7.3"
-    "iconv-lite" "0.4.24"
-    "unpipe" "1.0.0"
 
 "raw-body@2.5.1":
   "integrity" "sha1-/hsWKLGBtwAhXl/UI4n5i3E5KFc="
@@ -2218,16 +1017,20 @@
     "iconv-lite" "0.4.24"
     "unpipe" "1.0.0"
 
-"react-dom@^16.6.0 || ^17", "react-dom@^16.9.0 || ^17", "react-dom@^17.0.1":
-  "integrity" "sha1-7P+2hF462Nv83EmPDQqTlzZQLCM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/react-dom/download/react-dom-17.0.2.tgz"
-  "version" "17.0.2"
+"react-dom@^18.0.0-0", "react-dom@^18.0.1":
+  "integrity" "sha1-IqrzhwjbJnTtmtoiTKSqcI2CHj0="
+  "resolved" "http://registry.npm.release.ctripcorp.com/react-dom/download/react-dom-18.2.0.tgz"
+  "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
-    "object-assign" "^4.1.1"
-    "scheduler" "^0.20.2"
+    "scheduler" "^0.23.0"
 
-"react-is@^16.7.0", "react-is@^16.8.1", "react-is@16.13.1":
+"react-is@^16.7.0":
+  "integrity" "sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ="
+  "resolved" "http://registry.npm.release.ctripcorp.com/react-is/download/react-is-16.13.1.tgz"
+  "version" "16.13.1"
+
+"react-is@^16.8.1":
   "integrity" "sha1-eJcppNw23imZ3BVt1sHZwYzqVqQ="
   "resolved" "http://registry.npm.release.ctripcorp.com/react-is/download/react-is-16.13.1.tgz"
   "version" "16.13.1"
@@ -2249,20 +1052,14 @@
     "prop-types" "^15.7.2"
     "react-is" "^17.0.2"
 
-"react-refresh@0.8.3":
-  "integrity" "sha1-ch1GV2ctQAxePHXQY8SoX7LV1o8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/react-refresh/download/react-refresh-0.8.3.tgz"
-  "version" "0.8.3"
-
-"react@^16.6.0 || ^17", "react@^16.8.0 || ^17.0.0", "react@^16.8.3 || ^17 || ^18", "react@^16.9.0 || ^17", "react@^17.0.1", "react@15.x.x || 16.x.x || 17.x.x", "react@17.0.2":
-  "integrity" "sha1-0LXMUW0p6z7uOD91tihkz7aAADc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/react/download/react-17.0.2.tgz"
-  "version" "17.0.2"
+"react@^16.8.0 || ^17.0.0 || ^18.0.0", "react@^16.8.3 || ^17 || ^18", "react@^18.0.0-0", "react@^18.0.1", "react@^18.2.0", "react@>= 16.8.0 || 17.x.x || ^18.0.0-0":
+  "integrity" "sha1-VVvZhZKIMlX6AN4U8RUakXtdd9U="
+  "resolved" "http://registry.npm.release.ctripcorp.com/react/download/react-18.2.0.tgz"
+  "version" "18.2.0"
   dependencies:
     "loose-envify" "^1.1.0"
-    "object-assign" "^4.1.1"
 
-"readable-stream@^2.0.2", "readable-stream@^2.3.3", "readable-stream@^2.3.5", "readable-stream@^2.3.6":
+"readable-stream@^2.3.5":
   "integrity" "sha1-Hsoc9xGu+BTAT2IlKjamL2yyO1c="
   "resolved" "http://registry.npm.release.ctripcorp.com/readable-stream/download/readable-stream-2.3.7.tgz"
   "version" "2.3.7"
@@ -2274,31 +1071,6 @@
     "safe-buffer" "~5.1.1"
     "string_decoder" "~1.1.1"
     "util-deprecate" "~1.0.1"
-
-"readable-stream@^3.5.0":
-  "integrity" "sha1-M3u9o63AcGvT4CRCaihtS0sskZg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/readable-stream/download/readable-stream-3.6.0.tgz"
-  "version" "3.6.0"
-  dependencies:
-    "inherits" "^2.0.3"
-    "string_decoder" "^1.1.1"
-    "util-deprecate" "^1.0.1"
-
-"readable-stream@^3.6.0":
-  "integrity" "sha1-M3u9o63AcGvT4CRCaihtS0sskZg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/readable-stream/download/readable-stream-3.6.0.tgz"
-  "version" "3.6.0"
-  dependencies:
-    "inherits" "^2.0.3"
-    "string_decoder" "^1.1.1"
-    "util-deprecate" "^1.0.1"
-
-"readdirp@~3.5.0":
-  "integrity" "sha1-m6dMAZsV02UnjS6Ru4xI17TULJ4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/readdirp/download/readdirp-3.5.0.tgz"
-  "version" "3.5.0"
-  dependencies:
-    "picomatch" "^2.2.1"
 
 "readdirp@~3.6.0":
   "integrity" "sha1-dKNwvYVxFuJFspzJc0DNQxoCpsc="
@@ -2324,29 +1096,12 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/regexp-clone/download/regexp-clone-1.0.0.tgz"
   "version" "1.0.0"
 
-"regexp.prototype.flags@^1.4.3":
-  "integrity" "sha1-h8qzD4D2ZmAYGju3v1mBqHKzZ6w="
-  "resolved" "http://registry.npm.release.ctripcorp.com/regexp.prototype.flags/download/regexp.prototype.flags-1.4.3.tgz"
-  "version" "1.4.3"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "define-properties" "^1.1.3"
-    "functions-have-names" "^1.2.2"
-
 "require-at@^1.0.6":
   "integrity" "sha1-nrfjxeAHJ/WkdEBwp/Vg1N5Pbmo="
   "resolved" "http://registry.npm.release.ctripcorp.com/require-at/download/require-at-1.0.6.tgz"
   "version" "1.0.6"
 
-"ripemd160@^2.0.0", "ripemd160@^2.0.1":
-  "integrity" "sha1-ocGm9iR1FXe6XQeRTLyShQWFiQw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ripemd160/download/ripemd160-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "hash-base" "^3.0.0"
-    "inherits" "^2.0.1"
-
-"safe-buffer@^5.0.1", "safe-buffer@^5.1.0", "safe-buffer@^5.1.1", "safe-buffer@^5.1.2", "safe-buffer@^5.2.0", "safe-buffer@~5.2.0", "safe-buffer@5.2.1":
+"safe-buffer@^5.1.1", "safe-buffer@^5.1.2", "safe-buffer@5.2.1":
   "integrity" "sha1-Hq+fqb2x/dTsdfWPnNtOa3gn7sY="
   "resolved" "http://registry.npm.release.ctripcorp.com/safe-buffer/download/safe-buffer-5.2.1.tgz"
   "version" "5.2.1"
@@ -2366,7 +1121,7 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/safe-buffer/download/safe-buffer-5.1.2.tgz"
   "version" "5.1.2"
 
-"safer-buffer@^2.1.0", "safer-buffer@>= 2.1.2 < 3", "safer-buffer@>= 2.1.2 < 3.0.0":
+"safer-buffer@>= 2.1.2 < 3":
   "integrity" "sha1-RPoWGwGHuVSd2Eu5GAL5vYOFzWo="
   "resolved" "http://registry.npm.release.ctripcorp.com/safer-buffer/download/safer-buffer-2.1.2.tgz"
   "version" "2.1.2"
@@ -2378,23 +1133,17 @@
   dependencies:
     "sparse-bitfield" "^3.0.3"
 
-"scheduler@^0.20.2":
-  "integrity" "sha1-S67jlDbjSqk7SHS93L8P6Li1DpE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/scheduler/download/scheduler-0.20.2.tgz"
-  "version" "0.20.2"
+"scheduler@^0.23.0":
+  "integrity" "sha1-uoBBr8PTDrIGpIe2s4QALk5h/f4="
+  "resolved" "http://registry.npm.release.ctripcorp.com/scheduler/download/scheduler-0.23.0.tgz"
+  "version" "0.23.0"
   dependencies:
     "loose-envify" "^1.1.0"
-    "object-assign" "^4.1.1"
 
 "semver@^5.7.1":
   "integrity" "sha1-qVT5Ma66UI0we78Gnv8MAclhFvc="
   "resolved" "http://registry.npm.release.ctripcorp.com/semver/download/semver-5.7.1.tgz"
   "version" "5.7.1"
-
-"semver@^6.0.0":
-  "integrity" "sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0="
-  "resolved" "http://registry.npm.release.ctripcorp.com/semver/download/semver-6.3.0.tgz"
-  "version" "6.3.0"
 
 "semver@~7.0.0":
   "integrity" "sha1-XzyjV2HkfgWyBsba/yz4FPAxa44="
@@ -2430,33 +1179,10 @@
     "parseurl" "~1.3.3"
     "send" "0.18.0"
 
-"setimmediate@^1.0.4":
-  "integrity" "sha1-KQy7Iy4waULX1+qbg3Mqt4VvgoU="
-  "resolved" "http://registry.npm.release.ctripcorp.com/setimmediate/download/setimmediate-1.0.5.tgz"
-  "version" "1.0.5"
-
-"setprototypeof@1.1.1":
-  "integrity" "sha1-fpWsskqpL1iF4KvvW6ExMw1K5oM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/setprototypeof/download/setprototypeof-1.1.1.tgz"
-  "version" "1.1.1"
-
 "setprototypeof@1.2.0":
   "integrity" "sha1-ZsmiSnP5/CjL5msJ/tPTPcrxtCQ="
   "resolved" "http://registry.npm.release.ctripcorp.com/setprototypeof/download/setprototypeof-1.2.0.tgz"
   "version" "1.2.0"
-
-"sha.js@^2.4.0", "sha.js@^2.4.8":
-  "integrity" "sha1-N6XPC4HsvGlD3hCbopYNGyZYSuc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/sha.js/download/sha.js-2.4.11.tgz"
-  "version" "2.4.11"
-  dependencies:
-    "inherits" "^2.0.1"
-    "safe-buffer" "^5.0.1"
-
-"shell-quote@1.7.2":
-  "integrity" "sha1-Z6fQLHbJ2iT5nSCAj8re0ODgS+I="
-  "resolved" "http://registry.npm.release.ctripcorp.com/shell-quote/download/shell-quote-1.7.2.tgz"
-  "version" "1.7.2"
 
 "side-channel@^1.0.4":
   "integrity" "sha1-785cj9wQTudRslxY1CkAEfpeos8="
@@ -2484,22 +1210,10 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/sliced/download/sliced-1.0.1.tgz"
   "version" "1.0.1"
 
-"source-map@^0.6.1":
-  "integrity" "sha1-dHIq8y6WFOnCh6jQu95IteLxomM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/source-map/download/source-map-0.6.1.tgz"
-  "version" "0.6.1"
-
-"source-map@0.7.3":
-  "integrity" "sha1-UwL4FpAxc1ImVECS5kmB91F1A4M="
-  "resolved" "http://registry.npm.release.ctripcorp.com/source-map/download/source-map-0.7.3.tgz"
-  "version" "0.7.3"
-
-"source-map@0.8.0-beta.0":
-  "integrity" "sha1-1MG7QsP37pJfAFknuhBwng0dHxE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/source-map/download/source-map-0.8.0-beta.0.tgz"
-  "version" "0.8.0-beta.0"
-  dependencies:
-    "whatwg-url" "^7.0.0"
+"source-map-js@^1.0.2":
+  "integrity" "sha1-rbw2HZxi3zgBJefxYfccgm8eSQw="
+  "resolved" "http://registry.npm.release.ctripcorp.com/source-map-js/download/source-map-js-1.0.2.tgz"
+  "version" "1.0.2"
 
 "sparse-bitfield@^3.0.3":
   "integrity" "sha1-/0rm5oZWBWuks+eSqzM004JzyhE="
@@ -2507,13 +1221,6 @@
   "version" "3.0.3"
   dependencies:
     "memory-pager" "^1.0.2"
-
-"stacktrace-parser@0.1.10":
-  "integrity" "sha1-KfsMrk4NC4UVWHlAKFehY562BRo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stacktrace-parser/download/stacktrace-parser-0.1.10.tgz"
-  "version" "0.1.10"
-  dependencies:
-    "type-fest" "^0.7.1"
 
 "statuses@^1.5.0", "statuses@>= 1.5.0 < 2":
   "integrity" "sha1-Fhx9rBd2Wf2YEfQ3cfqZOBR4Yow="
@@ -2525,155 +1232,26 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/statuses/download/statuses-2.0.1.tgz"
   "version" "2.0.1"
 
-"stream-browserify@^2.0.1":
-  "integrity" "sha1-h1IdOKRKp+6RzhzSpH3wy0ndZgs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stream-browserify/download/stream-browserify-2.0.2.tgz"
-  "version" "2.0.2"
-  dependencies:
-    "inherits" "~2.0.1"
-    "readable-stream" "^2.0.2"
-
-"stream-browserify@3.0.0":
-  "integrity" "sha1-IrCihQzfZQPnMIXaH8e30MISLy8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stream-browserify/download/stream-browserify-3.0.0.tgz"
-  "version" "3.0.0"
-  dependencies:
-    "inherits" "~2.0.4"
-    "readable-stream" "^3.5.0"
-
-"stream-http@^2.7.2":
-  "integrity" "sha1-stJCRpKIpaJ+xP6JM6z2I95lFPw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stream-http/download/stream-http-2.8.3.tgz"
-  "version" "2.8.3"
-  dependencies:
-    "builtin-status-codes" "^3.0.0"
-    "inherits" "^2.0.1"
-    "readable-stream" "^2.3.6"
-    "to-arraybuffer" "^1.0.0"
-    "xtend" "^4.0.0"
-
-"stream-http@3.1.1":
-  "integrity" "sha1-A3CoAXz40FC5qFVK/mCPBD6v9WQ="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stream-http/download/stream-http-3.1.1.tgz"
-  "version" "3.1.1"
-  dependencies:
-    "builtin-status-codes" "^3.0.0"
-    "inherits" "^2.0.4"
-    "readable-stream" "^3.6.0"
-    "xtend" "^4.0.2"
-
-"stream-parser@^0.3.1":
-  "integrity" "sha1-FhhUhpRCACGhGC/wrxkRwSl2F3M="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stream-parser/download/stream-parser-0.3.1.tgz"
-  "version" "0.3.1"
-  dependencies:
-    "debug" "2"
-
-"string_decoder@^1.0.0", "string_decoder@^1.1.1", "string_decoder@~1.1.1":
+"string_decoder@~1.1.1":
   "integrity" "sha1-nPFhG6YmhdcDCunkujQUnDrwP8g="
   "resolved" "http://registry.npm.release.ctripcorp.com/string_decoder/download/string_decoder-1.1.1.tgz"
   "version" "1.1.1"
   dependencies:
     "safe-buffer" "~5.1.0"
 
-"string_decoder@1.3.0":
-  "integrity" "sha1-QvEUWUpGzxqOMLCoT1bHjD7awh4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/string_decoder/download/string_decoder-1.3.0.tgz"
-  "version" "1.3.0"
+"styled-jsx@5.1.0":
+  "integrity" "sha1-SlYiq5cUvT/PruwpKqVVhx8FdWM="
+  "resolved" "http://registry.npm.release.ctripcorp.com/styled-jsx/download/styled-jsx-5.1.0.tgz"
+  "version" "5.1.0"
   dependencies:
-    "safe-buffer" "~5.2.0"
+    "client-only" "0.0.1"
 
-"string-hash@1.1.3":
-  "integrity" "sha1-6Kr8CsGFW0Zmkp7X3RJ1311sgRs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/string-hash/download/string-hash-1.1.3.tgz"
-  "version" "1.1.3"
-
-"string.prototype.trimend@^1.0.5":
-  "integrity" "sha1-kUpluqqyX73U7ikcp93lfoacuNA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/string.prototype.trimend/download/string.prototype.trimend-1.0.5.tgz"
-  "version" "1.0.5"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "define-properties" "^1.1.4"
-    "es-abstract" "^1.19.5"
-
-"string.prototype.trimstart@^1.0.5":
-  "integrity" "sha1-VGbZO6WM+iE0g5+B1/QkN+jAH+8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/string.prototype.trimstart/download/string.prototype.trimstart-1.0.5.tgz"
-  "version" "1.0.5"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "define-properties" "^1.1.4"
-    "es-abstract" "^1.19.5"
-
-"strip-ansi@6.0.0":
-  "integrity" "sha1-CxVx3XZpzNTz4G4U7x7tJiJa5TI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/strip-ansi/download/strip-ansi-6.0.0.tgz"
-  "version" "6.0.0"
-  dependencies:
-    "ansi-regex" "^5.0.0"
-
-"styled-jsx@3.3.2":
-  "integrity" "sha1-JHRgGiZnCmBJ+00/lL2RaVs84Bg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/styled-jsx/download/styled-jsx-3.3.2.tgz"
-  "version" "3.3.2"
-  dependencies:
-    "@babel/types" "7.8.3"
-    "babel-plugin-syntax-jsx" "6.18.0"
-    "convert-source-map" "1.7.0"
-    "loader-utils" "1.2.3"
-    "source-map" "0.7.3"
-    "string-hash" "1.1.3"
-    "stylis" "3.5.4"
-    "stylis-rule-sheet" "0.0.10"
-
-"stylis-rule-sheet@0.0.10":
-  "integrity" "sha1-ROZKKwdmQ/S1Ll/3HvwE2MPEpDA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stylis-rule-sheet/download/stylis-rule-sheet-0.0.10.tgz"
-  "version" "0.0.10"
-
-"stylis@^3.5.0", "stylis@3.5.4":
-  "integrity" "sha1-9mXyX14pnPPWRlSrlJpXx2i3P74="
-  "resolved" "http://registry.npm.release.ctripcorp.com/stylis/download/stylis-3.5.4.tgz"
-  "version" "3.5.4"
-
-"supports-color@^5.3.0", "supports-color@^5.5.0":
+"supports-color@^5.5.0":
   "integrity" "sha1-4uaaRKyHcveKHsCzW2id9lMO/I8="
   "resolved" "http://registry.npm.release.ctripcorp.com/supports-color/download/supports-color-5.5.0.tgz"
   "version" "5.5.0"
   dependencies:
     "has-flag" "^3.0.0"
-
-"supports-color@^7.1.0":
-  "integrity" "sha1-G33NyzK4E4gBs+R4umpRyqiWSNo="
-  "resolved" "http://registry.npm.release.ctripcorp.com/supports-color/download/supports-color-7.2.0.tgz"
-  "version" "7.2.0"
-  dependencies:
-    "has-flag" "^4.0.0"
-
-"supports-color@^8.0.0":
-  "integrity" "sha1-zW/BfihQDP9WwbhsCn/UpUpzAFw="
-  "resolved" "http://registry.npm.release.ctripcorp.com/supports-color/download/supports-color-8.1.1.tgz"
-  "version" "8.1.1"
-  dependencies:
-    "has-flag" "^4.0.0"
-
-"timers-browserify@^2.0.4", "timers-browserify@2.0.12":
-  "integrity" "sha1-RKRcEfv0B/NPl7zNFXfGUjYbAO4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/timers-browserify/download/timers-browserify-2.0.12.tgz"
-  "version" "2.0.12"
-  dependencies:
-    "setimmediate" "^1.0.4"
-
-"to-arraybuffer@^1.0.0":
-  "integrity" "sha1-fSKbH8xjfkZsoIEYCDanqr/4P0M="
-  "resolved" "http://registry.npm.release.ctripcorp.com/to-arraybuffer/download/to-arraybuffer-1.0.1.tgz"
-  "version" "1.0.1"
-
-"to-fast-properties@^2.0.0":
-  "integrity" "sha1-3F5pjL0HkmW8c+A3doGk5Og/YW4="
-  "resolved" "http://registry.npm.release.ctripcorp.com/to-fast-properties/download/to-fast-properties-2.0.0.tgz"
-  "version" "2.0.0"
 
 "to-regex-range@^5.0.1":
   "integrity" "sha1-FkjESq58jZiKMmAY7XL1tN0DkuQ="
@@ -2681,11 +1259,6 @@
   "version" "5.0.1"
   dependencies:
     "is-number" "^7.0.0"
-
-"toidentifier@1.0.0":
-  "integrity" "sha1-fhvjRw8ed5SLxD2Uo8j013UrpVM="
-  "resolved" "http://registry.npm.release.ctripcorp.com/toidentifier/download/toidentifier-1.0.0.tgz"
-  "version" "1.0.0"
 
 "toidentifier@1.0.1":
   "integrity" "sha1-O+NDIaiKgg7RvYDfqjPkefu43TU="
@@ -2699,37 +1272,15 @@
   dependencies:
     "nopt" "~1.0.10"
 
-"tr46@^1.0.1":
-  "integrity" "sha1-qLE/1r/SSJUZZ0zN5VujaTtwbQk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/tr46/download/tr46-1.0.1.tgz"
-  "version" "1.0.1"
-  dependencies:
-    "punycode" "^2.1.0"
-
-"ts-pnp@^1.1.6":
-  "integrity" "sha1-pQCtCEsHmPHDBxrzkeZZEshrypI="
-  "resolved" "http://registry.npm.release.ctripcorp.com/ts-pnp/download/ts-pnp-1.2.0.tgz"
-  "version" "1.2.0"
+"tslib@^2.4.0":
+  "integrity" "sha1-fOyqfwc85oCgWEeqd76UEJjzbcM="
+  "resolved" "http://registry.npm.release.ctripcorp.com/tslib/download/tslib-2.4.0.tgz"
+  "version" "2.4.0"
 
 "tsscmp@1.0.6":
   "integrity" "sha1-hbmVg6w1iexL/vgltQAKqRHWBes="
   "resolved" "http://registry.npm.release.ctripcorp.com/tsscmp/download/tsscmp-1.0.6.tgz"
   "version" "1.0.6"
-
-"tty-browserify@0.0.0":
-  "integrity" "sha1-oVe6QC2iTpv5V/mqadUk7tQpAaY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/tty-browserify/download/tty-browserify-0.0.0.tgz"
-  "version" "0.0.0"
-
-"tty-browserify@0.0.1":
-  "integrity" "sha1-PwUlHuF5BN/QZ3VGZw25ZRaCuBE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/tty-browserify/download/tty-browserify-0.0.1.tgz"
-  "version" "0.0.1"
-
-"type-fest@^0.7.1":
-  "integrity" "sha1-jdpl/q8D7Xjwo/lnjxhpFH98XEg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/type-fest/download/type-fest-0.7.1.tgz"
-  "version" "0.7.1"
 
 "type-is@^1.6.16", "type-is@~1.6.18":
   "integrity" "sha1-TlUs0F3wlGfcvE73Od6J8s83wTE="
@@ -2746,16 +1297,6 @@
   dependencies:
     "random-bytes" "~1.0.0"
 
-"unbox-primitive@^1.0.2":
-  "integrity" "sha1-KQMgIQV9Xmzb0IxRKcIm3/jtb54="
-  "resolved" "http://registry.npm.release.ctripcorp.com/unbox-primitive/download/unbox-primitive-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "call-bind" "^1.0.2"
-    "has-bigints" "^1.0.2"
-    "has-symbols" "^1.0.3"
-    "which-boxed-primitive" "^1.0.2"
-
 "undefsafe@^2.0.5":
   "integrity" "sha1-OHM7kye9zSJtuIn7cjpu/RYubiw="
   "resolved" "http://registry.npm.release.ctripcorp.com/undefsafe/download/undefsafe-2.0.5.tgz"
@@ -2766,51 +1307,15 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/unpipe/download/unpipe-1.0.0.tgz"
   "version" "1.0.0"
 
-"url@^0.11.0":
-  "integrity" "sha1-ODjpfPxgUh63PFJajlW/3Z4uKPE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/url/download/url-0.11.0.tgz"
-  "version" "0.11.0"
-  dependencies:
-    "punycode" "1.3.2"
-    "querystring" "0.2.0"
+"use-sync-external-store@1.2.0":
+  "integrity" "sha1-fb79bvP+TnZ6DPXXKHqs+1hGkoo="
+  "resolved" "http://registry.npm.release.ctripcorp.com/use-sync-external-store/download/use-sync-external-store-1.2.0.tgz"
+  "version" "1.2.0"
 
-"use-subscription@1.5.1":
-  "integrity" "sha1-c1ARB/AvrYTG3VeWW+sLdcaMQtE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/use-subscription/download/use-subscription-1.5.1.tgz"
-  "version" "1.5.1"
-  dependencies:
-    "object-assign" "^4.1.1"
-
-"util-deprecate@^1.0.1", "util-deprecate@~1.0.1":
+"util-deprecate@~1.0.1":
   "integrity" "sha1-RQ1Nyfpw3nMnYvvS1KKJgUGaDM8="
   "resolved" "http://registry.npm.release.ctripcorp.com/util-deprecate/download/util-deprecate-1.0.2.tgz"
   "version" "1.0.2"
-
-"util@^0.11.0":
-  "integrity" "sha1-MjZzNyDsZLsn9uJvQhqqLhtYjWE="
-  "resolved" "http://registry.npm.release.ctripcorp.com/util/download/util-0.11.1.tgz"
-  "version" "0.11.1"
-  dependencies:
-    "inherits" "2.0.3"
-
-"util@^0.12.0", "util@0.12.3":
-  "integrity" "sha1-lxuwKS0swMiS2rfGpdN8K+xweIg="
-  "resolved" "http://registry.npm.release.ctripcorp.com/util/download/util-0.12.3.tgz"
-  "version" "0.12.3"
-  dependencies:
-    "inherits" "^2.0.3"
-    "is-arguments" "^1.0.4"
-    "is-generator-function" "^1.0.7"
-    "is-typed-array" "^1.1.3"
-    "safe-buffer" "^5.1.2"
-    "which-typed-array" "^1.1.2"
-
-"util@0.10.3":
-  "integrity" "sha1-evsa/lCAUkZInj23/g7TeTNqwPk="
-  "resolved" "http://registry.npm.release.ctripcorp.com/util/download/util-0.10.3.tgz"
-  "version" "0.10.3"
-  dependencies:
-    "inherits" "2.0.1"
 
 "utils-merge@1.0.1":
   "integrity" "sha1-n5VxD1CiZ5R7LMwSR0HBAoQn5xM="
@@ -2822,67 +1327,7 @@
   "resolved" "http://registry.npm.release.ctripcorp.com/vary/download/vary-1.1.2.tgz"
   "version" "1.1.2"
 
-"vm-browserify@^1.0.1", "vm-browserify@1.1.2":
-  "integrity" "sha1-eGQcSIuObKkadfUR56OzKobl3aA="
-  "resolved" "http://registry.npm.release.ctripcorp.com/vm-browserify/download/vm-browserify-1.1.2.tgz"
-  "version" "1.1.2"
-
-"watchpack@2.1.1":
-  "integrity" "sha1-6ZYwVQ/KB9+fkKBgVph7qkCmicc="
-  "resolved" "http://registry.npm.release.ctripcorp.com/watchpack/download/watchpack-2.1.1.tgz"
-  "version" "2.1.1"
-  dependencies:
-    "glob-to-regexp" "^0.4.1"
-    "graceful-fs" "^4.1.2"
-
-"webidl-conversions@^4.0.2":
-  "integrity" "sha1-qFWYCx8LazWbodXZ+zmulB+qY60="
-  "resolved" "http://registry.npm.release.ctripcorp.com/webidl-conversions/download/webidl-conversions-4.0.2.tgz"
-  "version" "4.0.2"
-
-"whatwg-url@^7.0.0":
-  "integrity" "sha1-wsSS8eymEpiO/T0iZr4bn8YXDQY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/whatwg-url/download/whatwg-url-7.1.0.tgz"
-  "version" "7.1.0"
-  dependencies:
-    "lodash.sortby" "^4.7.0"
-    "tr46" "^1.0.1"
-    "webidl-conversions" "^4.0.2"
-
-"which-boxed-primitive@^1.0.2":
-  "integrity" "sha1-E3V7yJsgmwSf5dhkMOIc9AqJqOY="
-  "resolved" "http://registry.npm.release.ctripcorp.com/which-boxed-primitive/download/which-boxed-primitive-1.0.2.tgz"
-  "version" "1.0.2"
-  dependencies:
-    "is-bigint" "^1.0.1"
-    "is-boolean-object" "^1.1.0"
-    "is-number-object" "^1.0.4"
-    "is-string" "^1.0.5"
-    "is-symbol" "^1.0.3"
-
-"which-typed-array@^1.1.2":
-  "integrity" "sha1-DP1TQBpvM02Q7REldUpC7WY+sB8="
-  "resolved" "http://registry.npm.release.ctripcorp.com/which-typed-array/download/which-typed-array-1.1.8.tgz"
-  "version" "1.1.8"
-  dependencies:
-    "available-typed-arrays" "^1.0.5"
-    "call-bind" "^1.0.2"
-    "es-abstract" "^1.20.0"
-    "for-each" "^0.3.3"
-    "has-tostringtag" "^1.0.0"
-    "is-typed-array" "^1.1.9"
-
-"xtend@^4.0.0", "xtend@^4.0.2":
-  "integrity" "sha1-u3J3n1+kZRhrH0OPZ0+jR/2121Q="
-  "resolved" "http://registry.npm.release.ctripcorp.com/xtend/download/xtend-4.0.2.tgz"
-  "version" "4.0.2"
-
 "ylru@^1.2.0":
   "integrity" "sha1-DeSAF0cydaTL38g6Hq9nwBr4p4U="
   "resolved" "http://registry.npm.release.ctripcorp.com/ylru/download/ylru-1.3.2.tgz"
   "version" "1.3.2"
-
-"yocto-queue@^0.1.0":
-  "integrity" "sha1-ApTrPe4FAo0x7hpfosVWpqrxChs="
-  "resolved" "http://registry.npm.release.ctripcorp.com/yocto-queue/download/yocto-queue-0.1.0.tgz"
-  "version" "0.1.0"

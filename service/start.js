@@ -62,7 +62,7 @@ app.prepare().then(() => {
   app.use(async (req, res) => {
     await handler(req, res);
   });
-  app.listen(3000, () => {
-    console.log("服务器在3000端口启动!");
+  app.listen(4000, () => {
+    console.log("服务器在4000端口启动!");
   });
 });
